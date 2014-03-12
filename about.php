@@ -11,10 +11,17 @@ Contact Vanilla Forums Inc. at support [at] vanillaforums [dot] com
 /**
  * An associative array of information about this application.
  */
+<<<<<<< HEAD
 $ThemeInfo['GlassMobile'] = array(
    'Name' => 'GlassMobile',
    'Description' => "A transparent php mobile theme.You can change the whole look by only changing the background. Most plugins will work. ",
    'Version' => '1.0',
+=======
+$ThemeInfo['Glass'] = array(
+   'Name' => 'Glass',
+   'Description' => "A transparent embed friendly and full scale theme. This theme is very dynamic and can be placed anywhere. Use it in a Facebook Page Or anywhere you want.",
+   'Version' => '1.3',
+>>>>>>> FETCH_HEAD
    'Author' => "VrijVlinder",
    'AuthorEmail' => 'contact@vrijvlinder.com',
    'AuthorUrl' => 'vrijvlinder.com'
