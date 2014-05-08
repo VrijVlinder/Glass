@@ -1,23 +1,9 @@
 #Body {
-<<<<<<< HEAD
-height:1000px;
-margin:15px 10px 0 auto;
-min-width:20%;
-text-align:left;
-width:100%;
-=======
-<<<<<<< HEAD
 height:auto;
+margin:15px 10px 0 auto;
+min-width:300px;
 text-align:left;
 width:100%;
-=======
-min-height: 820px;
-margin: 15px 10px 0 auto;
-text-align: left;
-width: 100%;
-min-width: 20%;
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 }
 
 #Bookmark_List {
@@ -28,72 +14,38 @@ border-bottom:none;
 border-bottom:1px solid #555;
 }
 
-<<<<<<< HEAD
-#CommentInfo,.CommentInfo {
-display:none;
-=======
-<<<<<<< HEAD
-#CommentInfo,.CommentInfo {
-display:none;
-=======
 #CommentInfo,div.CommentInfo {
-visibility:hidden;
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
+visibility:visible;
 }
-
+#Content .BoxFilter {
+    display:block;
+}
 #Content {
 -moz-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
 -webkit-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 background-color:transparent;
 background-image:url(images/contnt.png);
 background-repeat:repeat;
 background-size:100% 100%;
 border:1px solid #222;
+border-radius:5px;
 box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-padding:0;
-width:98%;
-border-radius: 5px;
-float:none;
-}
-
-#Content h1 {
-background:url(images/menu_bg.png);
-background-size:auto 50px;
-border-bottom: 2px solid #222;
-}
-#Content h1, #Content h3 {
-height:auto!important;
-}
-#Content, #Panel {
-border-radius: 5px;
-margin-left:3px;
-}
-
-#ConversationForm .TextBox {
-background-color:#222;
-=======
-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
->>>>>>> FETCH_HEAD
-background-color:transparent;
-background-image:url(images/contnt.png);
-background-repeat:repeat;
-background-size:100% 100%;
-border:1px solid #222;
-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
+float:left;
 margin-left:10px;
 min-width:20%;
 padding:0;
-width:65%;
-border-radius: 5px;
+width:64%;
 }
 
 #Content h1 {
 background:url(images/menu_bg.png);
-background-size:auto 50px;
+background-size:100% 100%;
+border-bottom:1px solid #222;
+border-top: none;
+font-family:Impact;
+font-size:20px;
+padding:12px;
+text-shadow:2px 2px 4px #000;
 }
 
 #Content,#Panel {
@@ -101,12 +53,7 @@ border-radius:5px;
 }
 
 #ConversationForm .TextBox {
-<<<<<<< HEAD
-background-color:#222;
-=======
 background-color:transparent;
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 height:100px;
 margin:8px 0 6px;
 min-height:100px;
@@ -122,24 +69,15 @@ text-align:right;
 }
 
 #ConversationForm label {
-<<<<<<< HEAD
-color:#CCC;
-=======
-<<<<<<< HEAD
-color:#CCC;
-=======
-color:#fff;
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
+color:#222;
 display:block;
 font-size:14px;
 font-weight:700;
-text-align:left;
+text-align:center;
 }
 
 #DiscussionForm form {
 background-color:transparent;
-<<<<<<< HEAD
 border:none;
 color:#000;
 }
@@ -150,59 +88,60 @@ clear:both;
 color:#ddd;
 font-size:13px;
 line-height:1;
-margin:2px 0;
 padding:0;
 text-align:center;
 width:100%;
+}
+
+#Foot a:hover {
+color:#0F0;
 }
 #Foot a {
 color:#ccc;
-margin: 0 20px auto;
 }
 
 #Foot div {
-margin: 20px 5px auto;
-padding: 0;
-text-align: left;
-width: auto;
+    height: auto;
+    margin-top: 0px;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
 }
 
-#FootMenu li.NonTab a.SignInPopup,#FootMenu li.NonTab.SignOut a,.Empty,a.Bookmark span,a.Bookmarking span {
-display:none;
+#FootMenu {
+margin: 0 auto;
+text-align: center;
+}
+.Foot div a {
+display: block;
+height: auto;
+
+}
+.Foot div p a {
+display: block;
+height: auto;
+width:60px;
+}
+#FootMenu ul#Menu li a {
+
+}
+#FootMenu ul#Menu li a:hover {
+-moz-box-shadow: 0 0 5px #aaa;
+-webkit-box-shadow: 0 0 5px #aaa;
+background: url(images/menu_bg.png)!important;
+border: 1px solid #222;
+box-shadow: 0 0 5px #aaa;
+color:#fff;
+text-shadow: 0 1px 0 #000!important;
+}
+#FootMenu ul#Menu {
+margin:0 auto;
+padding:5px;
+position:relative;
+top:0px;
 }
 
-=======
-border:1px solid #444;
-color:#000;
-}
-
-#Foot {
-background:transparent;
-clear:both;
-color:#ddd;
-font-size:13px;
-line-height:1;
-margin:2px 0;
-padding:0;
-text-align:center;
-width:100%;
-}
-
-#Foot div {
-margin:20px auto 0;
-padding:0;
-text-align:center;
-width:100%;
-}
-
-#FootMenu li.NonTab a.SignInPopup,#FootMenu li.NonTab.SignOut a,.Empty,a.Bookmark span,a.Bookmarking span {
-display:none;
-}
-<<<<<<< HEAD
-
-=======
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 #Form_Form {
 background-color:transparent;
 background-image:url(images/contnt.png);
@@ -212,37 +151,16 @@ padding-bottom:10px;
 }
 
 #Head {
-<<<<<<< HEAD
 background-color:transparent;
-=======
-<<<<<<< HEAD
-background-color:transparent;
-=======
-background:none transparent;
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 background-repeat:repeat;
 border:none;
 padding-left:10px;
 }
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
 
 #Head h1 span img {
-height:auto;
-width:100%!important;
-
-=======
-#Head h1 span{
-font-size:50px;
-}
->>>>>>> FETCH_HEAD
-#Head div h1 a span img {
-height:auto;
-width:680px;
->>>>>>> FETCH_HEAD
+margin: 0 auto;
+width: 100%;
+min-width: 600px;
 }
 
 #Menu {
@@ -256,15 +174,7 @@ vertical-align:bottom;
 -webkit-border-radius:11px;
 background:#fff;
 border-radius:11px;
-<<<<<<< HEAD
 color:#000;
-=======
-<<<<<<< HEAD
-color:#000;
-=======
-color:#87c10b;;
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 font-size:11px;
 font-weight:700;
 padding:0 2px;
@@ -274,165 +184,102 @@ text-shadow:none;
 #Menu a:hover {
 -moz-box-shadow:0 0 5px #aaa;
 -webkit-box-shadow:0 0 5px #aaa;
-<<<<<<< HEAD
 background-image:url(images/menu_bg.png);
-=======
-<<<<<<< HEAD
-background-image:url(images/menu_bg.png);
-=======
-background-image:url(images/menu_bg2.png);
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 background-repeat:repeat;
 border:1px solid #222;
 box-shadow:0 0 5px #aaa;
 color:#fff;
 font-size:10pt;
+transition: background 0.5s ease 0s;
 }
 
 #Menu a:link {
-<<<<<<< HEAD
-font-size:11pt;
-=======
 font-size:10pt;
->>>>>>> FETCH_HEAD
 text-decoration:none;
 }
 
 #Menu li {
 display:inline-block;
-<<<<<<< HEAD
-float:left;
-=======
 float:right;
->>>>>>> FETCH_HEAD
 font-weight:700;
-line-height:1.9;
 list-style:none outside none;
 margin:0;
 padding:1px!important;
 position:relative;
 text-align:center;
 }
-<<<<<<< HEAD
 
-#Menu ul {
+#Menu ul,#MessageForm {
 background:transparent;
-}
-
-=======
-<<<<<<< HEAD
-
-#Menu ul {
-background:transparent;
-}
-
-=======
-#Menu ul {
-background:transparent;
-}
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
-#MessageForm {
-background:#333;
 }
 
 #Panel {
-<<<<<<< HEAD
 border-radius:5px;
 float:right!important;
 margin-right:10px;
 width:30%;
-=======
-<<<<<<< HEAD
-border-radius:5px;
-float:none!important;
-margin-left:3px;
-width:98%!important;
-=======
-float:right!important;
-margin-right:10px;
-width:30%;
-border-radius: 5px;
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
+border-top: none;
+border-right: none;
+background:transparent;
 }
 
-#Panel form input.Button {
+#Panel .BoxFilter,.CategoryFilter {
+background:url(images/contnt.png) repeat scroll 0 0 transparent;
+border:1px solid #222;
+border-radius:5px 5px 5px 5px;
+margin:10px 0;
+text-align:center;
+}
+
+#Panel .FilterMenu .Active,.PanelInfo .Active {
+background:url(images/menu_bg.png)!important;
+border-bottom:1px solid #222;
+border-radius:0;
+font-weight:700;
+}
+
+#Panel .FilterMenu li,.PanelInfo li {
+background:url(images/contnt.png);
+border-bottom:1px solid #222;
+padding:2px 4px;
+}
+
+#Panel form input.Button.Action {
 -moz-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
 -webkit-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-<<<<<<< HEAD
-background:url(images/contnt.png) repeat scroll 0 0 transparent;
+background:url(images/contnt.png) repeat scroll transparent;
 border:1px solid #222;
 box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-=======
-<<<<<<< HEAD
-background:url(images/contnt.png) repeat scroll 0 0 transparent;
-border:1px solid #222;
-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-=======
-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-border: 1px solid #222;
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 font-size:12pt;
 font-weight:700;
 height:28px;
-margin:3px;
-<<<<<<< HEAD
-padding:1px 3px 1px 1px;
-=======
-<<<<<<< HEAD
-padding:1px 3px 1px 1px;
-width:28px;
+margin:13px;
+padding:0;
+width:48px;
 }
 
 #Panel form input.InputBox {
--moz-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
--webkit-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
+-moz-box-shadow:none;
+-webkit-box-shadow:none;
 background:url(images/contnt.png) repeat scroll 0 0 transparent;
-=======
-padding: 1px 3px 1px 1px;
->>>>>>> FETCH_HEAD
-width:28px;
-}
-
-#Panel form input.InputBox {
--moz-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
--webkit-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-<<<<<<< HEAD
-background:url(images/contnt.png) repeat scroll 0 0 transparent;
-=======
-background: url("images/contnt.png") repeat scroll 0 0 transparent;
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 border-color:#222;
 border-image:none;
 border-radius:4px;
 border-style:solid;
 border-width:1px;
-<<<<<<< HEAD
-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
+box-shadow:none;
 color:#000;
-=======
-<<<<<<< HEAD
-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-color:#000;
-=======
-color:#87c10b;;
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 font-size:14px;
 font-weight:700;
-padding:5px;
+padding:8px;
 text-shadow:0 1px 0 #fff;
-vertical-align:bottom;
-width:72%;
+vertical-align:top;
+width:72%!important;
 }
 
 #Panel input.InputBox,.AddPeople textarea.MultiComplete {
 margin-bottom:2px;
-width:188px;
+width:100%;
 }
 
 #Status {
@@ -446,10 +293,6 @@ padding-bottom:5px;
 color:#333;
 font-size:9px;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> FETCH_HEAD
 
 #menu-bar {
 -moz-border-radius:5px;
@@ -458,8 +301,6 @@ font-size:9px;
 -webkit-box-shadow:none;
 background:url(images/contnt.png) transparent;
 border:solid 1px #222;
-<<<<<<< HEAD
-=======
 border-radius:5px;
 box-shadow:none;
 display:inline-block;
@@ -501,161 +342,6 @@ list-style:none;
 margin:0 6px;
 padding:0 0 7px;
 position:relative;
-}
-
-#menu-bar li:hover > ul,html[xmlns] #menu-bar {
-display:block;
-}
-
-#menu-bar ul {
--moz-border-radius:5px;
--moz-box-shadow:2px 2px 3px #222;
--webkit-border-radius:5px;
--webkit-box-shadow:2px 2px 3px #222;
-background:url(images/contnt.png) rgba(0,0,0,0.9);
-border:solid 1px #222;
-border-radius:5px;
-box-shadow:2px 2px 3px #222;
-display:none;
-left:0;
-margin:0;
-padding:0;
-position:absolute;
-top:30px;
-width:240px;
-z-index:100;
-}
-
-#menu-bar ul a {
-color:#FFF!important;
-font-family:arial;
-font-size:14px;
-font-style:normal;
-font-weight:700;
-padding:10px;
-text-shadow:2px 2px 3px #000;
-}
-
-#menu-bar ul a:hover {
--moz-border-radius:0;
--webkit-border-radius:0;
-background:url(images/menu_bg.png)!important;
-border-radius:0;
-color:#FFA500!important;
-text-shadow:2px 2px 3px #000;
-}
-
-#menu-bar ul li {
-float:none;
-margin:0;
-padding:0;
-}
-
-#menu-bar ul li:first-child > a {
--moz-border-radius-topleft:5px;
--moz-border-radius-topright:5px;
--webkit-border-top-left-radius:5px;
--webkit-border-top-right-radius:5px;
-border-top-left-radius:5px;
-border-top-right-radius:5px;
-}
-
-#menu-bar ul li:hover a,#menu-bar li:hover li a {
--box-shadow:none;
--moz-box-shadow:none;
--webkit-box-shadow:none;
-background:none;
-border:none;
-color:#fff;
-font-size: 16px;
-}
-
-#menu-bar ul li:last-child > a {
--moz-border-radius-bottomleft:5px;
--moz-border-radius-bottomright:5px;
--webkit-border-bottom-left-radius:5px;
--webkit-border-bottom-right-radius:5px;
-border-bottom-left-radius:5px;
-border-bottom-right-radius:5px;
-}
-
-#menu-bar:after {
-clear:both;
-content:".";
-display:block;
-height:0;
-line-height:0;
-visibility:hidden;
-}
-
-#menu-bar:hover {
--moz-box-shadow:0 0 5px #aaa;
--webkit-box-shadow:0 0 5px #aaa;
-background:url(images/menu_bg.png) transparent;
-border:1px solid #666;
-box-shadow:0 0 5px #aaa;
-}
-
-#translate-this .translate-this-button {
-background:url(http://x.translateth.is/tt-btn1.png) no-repeat;
-display:inline-block!important;
-float:none!important;
-height:18px;
-overflow:hidden;
-position:relative;
-text-indent:-2000px;
-visibility:visible;
-width:180px;
-=======
-#translate-this .translate-this-button {
-background:url(images/tt-btn1.png)!important;
-border:1px solid #222;
->>>>>>> FETCH_HEAD
-border-radius:5px;
-box-shadow:none;
-display:inline-block;
-height:35px;
-line-height:100%;
-margin:0;
-padding:0;
-width:98%;
-}
-
-#menu-bar .current a,#menu-bar li:hover > a {
--moz-box-shadow:0 1px 1px rgba(0,0,0,.2);
--webkit-box-shadow:0 1px 1px rgba(0,0,0,.2);
-background:transparent;
-box-shadow:0 1px 1px rgba(0,0,0,.2);
-color:#FFF;
-text-shadow:2px 2px 3px #000;
-}
-
-#menu-bar a {
--moz-border-radius:5px;
--webkit-border-radius:5px;
-border-radius:5px;
-color:#000;
-display:block;
-font-family:arial;
-font-size:120%;
-font-style:normal;
-font-weight:700;
-margin:0 auto;
-padding:10px 0 8px 45px;
-text-decoration:none;
-text-shadow:2px 1px 0 #666;
-}
-
-#menu-bar li {
-float:left;
-list-style:none;
-margin:0 6px;
-padding:0 0 7px;
-position:relative;
-}
-
-#menu-bar li:hover > ul,html[xmlns] #menu-bar {
-display:block;
 }
 
 #menu-bar ul {
@@ -702,7 +388,7 @@ margin:0;
 padding:0;
 }
 
-#menu-bar ul li:first-child > a {
+#menu-bar ul li:first-child > a,ul#Menu ul li:first-child {
 -moz-border-radius-topleft:5px;
 -moz-border-radius-topright:5px;
 -webkit-border-top-left-radius:5px;
@@ -747,69 +433,59 @@ box-shadow:0 0 5px #aaa;
 }
 
 #translate-this .translate-this-button {
-background:url(http://x.translateth.is/tt-btn1.png) no-repeat;
-display:inline-block!important;
-float:none!important;
-height:18px;
+background:url(images/tt-btn1.png)!important;
+border:1px solid #222;
+border-radius:5px;
+float:left;
 overflow:hidden;
 position:relative;
 text-indent:-2000px;
-<<<<<<< HEAD
-visibility:visible;
-width:180px;
-=======
 visibility:visible!important;
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 }
 
 #ttb-paneltop.ttb-paneltop {
 background:transparent!important;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> FETCH_HEAD
+
+* {
+margin:0;
+padding:0;
+}
 
 * html #menu-bar {
 height:1%;
 }
-
-<<<<<<< HEAD
-=======
-=======
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
+.About.P, dl.About {
+display: inline-table;
+float: none;
+height: auto;
+line-height: .8;
+margin: 0 auto;
+width: 100%;
+white-space:normal;
+}
 .Active .TabLink {
 background:#111;
 border:1px solid #222;
 color:#fff;
 }
 
-.Activities .DataList li {
-<<<<<<< HEAD
-background:transparent;
-border: none;
-}
-.Activities ul.DataList {
-margin-left: 3px;
-width: 98%;
-}
-.Activities .Excerpt {
-color:#000;
-=======
-background:#111;
-border:1px solid #333;
+.Activities .DataList a.Title,.Activities .DataList .Title,.Activities .DataList .Title a,.Activities .DataList .Excerpt p {
+font-size:18px;
+line-height:1;
 }
 
+.Activities .DataList li {
+background:none repeat scroll 0 0 transparent;
+border:none;
+}
 .Activities .Excerpt {
-<<<<<<< HEAD
-color:#000;
-=======
-color:#87c10b;;
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
-font-weight:700;
+color: #000;
+display: block;
+font-weight: 700;
+margin: 0;
+position: relative;
+text-align: left;
 }
 
 .Activities .Excerpt a:hover,.Activities .Meta a:hover {
@@ -819,14 +495,32 @@ text-decoration:none;
 }
 
 .Activities .HasPhoto .ItemContent {
-margin-left:53px;
+margin-left:0;
 width:auto;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> FETCH_HEAD
+.Activities a.CommentLink {
+border:1px solid #aaa;
+color:#000!important;
+cursor:default;
+display:block;
+font-size:14px;
+font-weight:700;
+padding:6px;
+text-decoration:none;
+}
+
+.Activities a.CommentLink:hover {
+border:1px solid #222;
+color:#fff!important;
+cursor:default;
+display:block;
+font-size:14px;
+font-weight:700;
+padding:6px;
+text-decoration:none;
+}
+
 .Activities a.Title,.Activities .Title,.Activities .Title a {
 font-size:15px;
 }
@@ -836,121 +530,29 @@ color:#000;
 font-size:15px;
 }
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 .Activities li.Condensed .Excerpt {
 font-size:14px;
 text-align:left;
 text-shadow:0 1px 0 #000;
 width:auto;
 }
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-.AdminCheck {
-display: none;
-}
-
-.AptAdImg img {
-border-radius:5px!important;
-box-shadow:1px 0 1px 1px #222!important;
-}
-
-.AttachFileWrapper table.AttachFileContainer tr.FileAttachment td .ProgressBar {
-background-color:transparent;
-border:0;
-font-size:14px;
-height:39px;
-width:126px;
-}
-
-.AttachFileWrapper table.AttachFileContainer tr.FileAttachment td .ProgressBar .ProgressTicker {
-background:url(images/upload-progress-back1.gif)!important;
-background-color:transparent;
-color:#fff;
-font-size:14px;
-height:39px;
-line-height:14px;
-padding-right:2px;
-text-align:right;
-}
-
-.Box {
--moz-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
--webkit-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-background-color:transparent;
-background-image:url(images/contnt.png);
-background-repeat:repeat;
-border:1px solid #222;
-border-radius:5px;
-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-}
-
-.Box dl dd {
-color:#222;
-font-size:14px;
-margin-left:80px;
-}
-
-.Box dl dt,.Box p,.Activities .Excerpt a,.Activities .Meta a,body.Entry form ul li label {
-color:#222;
-}
-
-.Box h4 {
-background-color:transparent;
-background-image:url(images/menu_bg.png);
-background-repeat:repeat;
-border:1px solid #222;
-box-shadow:none;
-color:#000;
-font-size:16px;
-text-align:center;
-text-shadow:0 1px 0 #666;
-=======
-.Activities a.Title, .Activities .Title, .Activities .Title a {
-font-size: 15px;
-}
-.Activities a.Title:hover, .Activities .Title:hover, .Activities .Title a:hover{
-font-size: 15px;
-color:#87c10b;;
-}
->>>>>>> FETCH_HEAD
 .AdminCheck {
 display:inline-block;
 height:22px;
 position:relative;
 right:5px;
-top:20px;
+top:0;
 vertical-align:bottom;
 }
-
+.AdminCheck#top {
+vertical-align: top;
+position: relative;
+left: 5px;
+}
 .AptAdImg img {
 border-radius:5px!important;
 box-shadow:1px 0 1px 1px #222!important;
-}
-
-.AttachFileWrapper table.AttachFileContainer tr.FileAttachment td .ProgressBar {
-background-color:transparent;
-border:0;
-font-size:14px;
-height:39px;
-width:126px;
-}
-
-.AttachFileWrapper table.AttachFileContainer tr.FileAttachment td .ProgressBar .ProgressTicker {
-background:url(images/upload-progress-back1.gif)!important;
-background-color:transparent;
-color:#fff;
-font-size:14px;
-height:39px;
-line-height:14px;
-padding-right:2px;
-text-align:right;
 }
 
 .Box {
@@ -959,8 +561,8 @@ text-align:right;
 background-color:transparent;
 background-image:url(images/contnt.png);
 background-repeat:repeat;
-border:1px solid #222;
 border-radius:5px;
+border: 1px solid #222;
 box-shadow:2px 2px 3px rgba(0,0,0,0.5);
 }
 
@@ -975,62 +577,28 @@ color:#222;
 }
 
 .Box h4 {
-<<<<<<< HEAD
 background-color:transparent;
 background-image:url(images/menu_bg.png);
 background-repeat:repeat;
-border:1px solid #222;
+border-bottom:1px solid #222;
+border-radius:5px 5px 0 0;
 box-shadow:none;
 color:#000;
 font-size:16px;
 text-align:center;
 text-shadow:0 1px 0 #666;
-=======
-    background-color: transparent;
-    background-image: url("images/menu_bg2.png");
-    background-repeat: repeat;
-    border: 1px solid #222;
-    box-shadow: none;
-    color:#82bb0c;
-    font-size: 16px;
-    text-align: center;
-    text-shadow: 0 1px 0 #000;
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 }
 
 .Box p {
-font-size:100%;
-padding:0 0 4px;
-text-align:center;
-}
-<<<<<<< HEAD
-.Box.GuestBox{
-}
-.Box.About {
-text-align: left;
-padding: 6px 10px;
-margin: 0 10px 10px;
-}
-.Box.About h4,.Box.CategoryFollowToggleBox h4,.Box.GuestBox h4 {
-background:url(images/menu_bg.png);
+font-size: 100%;
+text-align: center;
 }
 
-.Box.CategoryFollowToggleBox h4 p a:link {
-color:#222!important;
-}
-.Buttons {
-margin-top: 15px;
-float: right;
-}
-.Comment {
-color:#000;
-font:family:Arial;
-font-size:12pt!important;
-}
-
-.Content {
-opacity:10;
+.Center {
+background:transparent!important;
+border:none;
+font-weight:700;
+margin:0 auto;
 }
 
 .Conversation .Item {
@@ -1038,49 +606,11 @@ background-color:transparent;
 background-image:url(images/contnt.png);
 background-repeat:repeat;
 background-size:100% 100%;
-=======
-
-.Box.About h4,.Box.CategoryFollowToggleBox h4,.Box.GuestBox h4 {
-background:url(images/menu_bg.png);
-}
-
-.Box.CategoryFollowToggleBox h4 p a:link {
-color:#222!important;
-}
-
-.Comment {
-color:#000;
-font:family:Arial;
-font-size:12pt!important;
-}
-
-.Content {
-opacity:10;
-}
-
-.Conversation .Item {
-background-color:transparent;
-background-image:url(images/contnt.png);
-background-repeat:repeat;
-<<<<<<< HEAD
-background-size:100% 100%;
-=======
-background-size:95px auto;
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 border-bottom:1px solid #222;
 }
 
 .DataList .Excerpt a {
-<<<<<<< HEAD
 color:#000;
-=======
-<<<<<<< HEAD
-color:#000;
-=======
-color:#87c10b;;
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 display:block;
 font-size:11pt;
 }
@@ -1090,28 +620,48 @@ font-size:11pt;
 }
 
 .DataList .Item {
-background-color:transparent;
-background-image:url(images/contnt.png);
-background-repeat:repeat;
-<<<<<<< HEAD
-border:1px solid #333;
-=======
-<<<<<<< HEAD
-border:1px solid #333;
-=======
+background-color: 
+transparent;
+background-image: url(images/contnt.png);
+background-repeat: repeat;
 border: 1px solid #333;
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
+height: auto;
+text-align: left;
+}
+.DataList .Item:first-child {
+	border-radius:0 0 0 0;
+}
+.DataList .Item:last-child {
+	border-radius:0 0 5px 5px;
 }
 
-.DataList .Meta {
+.DataList .Meta.CommentMeta.CommentInfo {
 color:#333;
-font-size:13px;
+font-size: 12px;
+position: relative;
+top: -23px;
+}
+.DataList .Meta {
+color: #333;
+font-size: 12px;
+position: relative;
+top: 0px;
+left: 10%;
+display: inline;
+width: 100%;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
+.DataList .Meta.Meta-Discussion {
+color:#333;
+position: relative;
+margin-bottom: -5px;
+left: 1%;
+display: inline-block;
+width: 100%;
+float: left;
+font-size: 10px;
+}
+
 .DataList .Meta .Announcement {
 background:url(images/contnt.png) repeat scroll 0 0 #4242A9;
 border:1px solid #666;
@@ -1119,54 +669,20 @@ border-radius:3px 3px 3px 3px;
 font-size:13px;
 font-weight:700;
 text-shadow:0 1px 0 #000;
-=======
-.DataList a.Title {
-    display: block;
-    font-size: 18px;
-    font-weight: bold;
-    margin: 0;
-}
-.DataList a.Title:hover {
-    display: block;
-color:#fff!important;
-    font-size: 18px;
-    font-weight: bold;
-    margin: 0;
-}
-
->>>>>>> FETCH_HEAD
-.DataList .Meta .Announcement {
-background:url(images/contnt.png) repeat scroll 0 0 #4242A9;
-border:1px solid #666;
-<<<<<<< HEAD
-border-radius:3px 3px 3px 3px;
-font-size:13px;
-font-weight:700;
-text-shadow:0 1px 0 #000;
-=======
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 }
 
 .DataList .Meta .Closed {
 background:#bb3c3c;
 font-weight:400;
-<<<<<<< HEAD
 text-shadow:0 1px 0 #000;
-=======
-<<<<<<< HEAD
-text-shadow:0 1px 0 #000;
-=======
-text-shadow: 0 1px 0 #000;
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 }
 
 .DataList .Options,.MessageList .Options {
-margin:7px 4px 0 0;
+padding:0;
+position:relative;
+top:6px;
 }
 
-<<<<<<< HEAD
 .DataList .Title a {
 color:#fff;
 font-size:15px;
@@ -1174,22 +690,13 @@ font-weight:700;
 text-shadow:0 1px 0 #000;
 }
 
-.DataList a.Delete,.DataList a.Delete:hover {
--moz-border-radius:0;
--webkit-border-radius:0;
-border-radius:0;
-=======
-<<<<<<< HEAD
-.DataList .Title a {
->>>>>>> FETCH_HEAD
-color:#fff;
-font-size:15px;
+.DataList .Title a:hover {
+color:lime;
 font-weight:700;
+font-size:15px;
 text-shadow:0 1px 0 #000;
 }
 
-=======
->>>>>>> FETCH_HEAD
 .DataList a.Delete,.DataList a.Delete:hover {
 -moz-border-radius:0;
 -webkit-border-radius:0;
@@ -1201,27 +708,24 @@ font-size:25px;
 font-weight:700;
 height:25px;
 line-height:1;
-margin:0;
+margin:0 15px 0 0;
 padding:2px 4px;
-<<<<<<< HEAD
-text-shadow:0 1px 0 #000;
-=======
-<<<<<<< HEAD
 text-shadow:0 1px 0 #000;
 width:auto;
+visibility: visible;
 }
 
 .DataList a.Title {
 display:block;
-font-size:18px;
+font-size:15px;
 font-weight:700;
 margin:0;
 }
 
 .DataList a.Title:hover {
-color:#fff!important;
+color:lime!important;
 display:block;
-font-size:18px;
+font-size:15px;
 font-weight:700;
 margin:0;
 }
@@ -1243,16 +747,6 @@ font-size:18px;
 text-shadow:0 1px 0 #000;
 }
 
-.DismissMessage.Info {
-background:transparent;
-border-color:#222;
-border-style:solid;
-border-width:1px;
-font:family:Arial;
-font-size:12pt;
-font-weight:700;
-}
-
 .DismissMessage.Warning {
 -moz-box-shadow:1px 1px 1px 1px #333;
 -webkit-box-shadow:1px 1px 1px 1px #333;
@@ -1269,79 +763,17 @@ text-shadow:0 1px 0 #000;
 color:#222;
 max-width:580px;
 }
-
-=======
->>>>>>> FETCH_HEAD
-width:auto;
+.EditCommentForm .Buttons .Cancel, .CommentForm .Buttons .Cancel, .CommentForm .Buttons .Back, .DraftButton, .CommentForm .WriteButton {
+float: left;
+line-height: 1;
+padding-right: 3px;
 }
-
-.DataList a.Title {
-display:block;
-font-size:18px;
-font-weight:700;
-margin:0;
+.EditCommentForm .Buttons, .CommentForm .Buttons {
+position: relative;
+text-align: right;
+margin: 50px 0 0;
+padding: 6px 0;
 }
-
-.DataList a.Title:hover {
-color:#fff!important;
-display:block;
-font-size:18px;
-font-weight:700;
-margin:0;
-}
-
-.DataList li.Mine .Meta a.Category,.DataList .Meta a.Category {
-background:url(images/menu_bg.png) repeat scroll 0 0 transparent;
-border:1px solid #666;
-}
-
-.DismissMessage.Box {
--moz-box-shadow:1px 1px 1px 1px #333;
--webkit-box-shadow:1px 1px 1px 1px #333;
-background:url(images/contnt.png) repeat scroll 0 0 rgba(82,82,82,0.3);
-border:1px solid #666;
-border-radius:4px;
-box-shadow:1px 1px 1px 1px #333;
-color:#fff;
-font-size:18px;
-text-shadow:0 1px 0 #000;
-}
-
-.DismissMessage.Info {
-background:transparent;
-border-color:#222;
-border-style:solid;
-border-width:1px;
-font:family:Arial;
-font-size:12pt;
-font-weight:700;
-}
-
-.DismissMessage.Warning {
--moz-box-shadow:1px 1px 1px 1px #333;
--webkit-box-shadow:1px 1px 1px 1px #333;
-background:url(images/contnt.png) repeat scroll 0 0 rgba(82,82,82,0.3);
-border:1px solid #666;
-border-radius:4px;
-box-shadow:1px 1px 1px 1px #333;
-color:#fff;
-font-size:20px;
-text-shadow:0 1px 0 #000;
-}
-
-.Drafts .ItemContent a.Title,.Discussions .ItemContent a.Title {
-color:#222;
-max-width:580px;
-}
-<<<<<<< HEAD
-
-=======
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
-.Emoticon a:link:hover,.Emoticon img:hover,.Emoticon a:hover,.Emoticon:hover {
-background:#fff!important;
-}
-
 .EmoticonBox {
 -moz-border-bottom-colors:none;
 -moz-border-left-colors:none;
@@ -1375,39 +807,13 @@ border-radius:22px 22px 22px 22px;
 cursor:pointer;
 height:22px;
 position:absolute;
-right:0;
+right:-5px;
 text-align:right;
 top:2px;
 width:22px;
 z-index:10;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> FETCH_HEAD
-.Entry.SingleEntryMethod {
-border-color:#222;
-border-width:1px;
-font:family:Arial;
-}
-
-.Entry.SingleEntryMethod Label,li.CreateAccount {
-color:#FFF;
-text-shadow:0 1px 0 #000;
-}
-
-.Entry.SingleEntryMethod h1 {
-background:url(images/menu_bg.png);
-border-color:#222;
-border-style:solid;
-border-width:1px;
-color:#fff;
-font:family:Arial;
-<<<<<<< HEAD
-=======
-}
-
 .Excerpt a {
 color:#000!important;
 font-size:16px!important;
@@ -1418,73 +824,47 @@ color:#fff;
 font-size:16px!important;
 }
 
-.Foot {
-background:transparent;
-background-size:100% 100%;
-border-color:#222;
+.Flyout .Author .PhotoWrap {
+margin:0;
+}
+
+.FlyoutButton {
+cursor:pointer;
+}
+
+.FlyoutLeft .Flyout {
+right:inherit;
+}
+
+.FlyoutMenu {
+-moz-border-radius:2px;
+-moz-box-shadow:0 5px 10px rgba(0,0,0,0.2);
+-webkit-border-radius:2px;
+-webkit-box-shadow:0 5px 10px rgba(0,0,0,0.2);
+background:#fff;
+border:solid 1px #999;
+border-radius:2px;
+box-shadow:0 5px 10px rgba(0,0,0,0.2);
+color:#000;
+width:300px;
+}
+
+.FlyoutMenu a {
+color:#00419b;
 }
 
 .Foot .Note {
 color:#000;
-=======
-.Empty,a.Bookmark span,a.Bookmarking span {
-display:none;
->>>>>>> FETCH_HEAD
-}
-
-.Excerpt a {
-color:#000!important;
-font-size:16px!important;
-}
-
-.Excerpt a:hover {
-color:#fff;
-font-size:16px!important;
-}
-
-.Foot {
-background:transparent;
-background-size:100% 100%;
-border-color:#222;
-}
-
-.Foot .Note {
-<<<<<<< HEAD
-color:#000;
-=======
-color:#87c10b;;
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 float:left;
 font-weight:700;
 padding:0 0 0 8px;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> FETCH_HEAD
-.FootMenu #Menu a:link,.FootMenu #Menu a:link:hover {
-background:none;
-border:none;
-box-shadow:none;
-font-size:12pt;
-text-decoration:none;
+.Gloss {
+font-size: 95%;
+font-weight: normal;
+color:#fff;
 }
-
-.FootMenu ul#Menu li ul li a,.FootMenu ul#Menu li ul li,.FootMenu ul#Menu li ul,#Foot #FootMenu ul#Menu li ul {
-display:none!important;
-}
-<<<<<<< HEAD
-
-=======
-.flag span {
-position: absolute;
-margin: -5px 25px;
-}
-=======
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 .HeadingTabs .SubTab {
 background:none repeat scroll 0 0 transparent;
 display:inline;
@@ -1500,6 +880,25 @@ font-weight:700;
 line-height:2;
 }
 
+.Info {
+-moz-border-radius:2px;
+-webkit-border-radius:2px;
+background:transparent!important;
+border:2px solid #222;
+border-radius:2px;
+color:#333;
+font-size:13px;
+margin:10px 0;
+padding:6px 8px;
+text-align:center;
+}
+.ItemContent.Item{
+    color:#fff;
+    text-shadow:0 1px 0 #000;
+}
+.ItemContent.Category{
+    min-height:100px;
+}
 .Item .Author img {
 background:none repeat scroll 0 0 #222;
 border:2px solid #222;
@@ -1523,107 +922,126 @@ overflow:hidden;
 width:43px;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> FETCH_HEAD
-.ItemContent.Category.Read a,span.Breadcrumb.FirstCrumb a {
-background:url(images/contnt.png);
-background-repeat:repeat-x;
-border:1px solid #666;
-border-radius:3px 3px 3px 3px;
-color:#000;
-cursor:pointer;
-display:inline-block;
+.Item .OptionsTitle,.MenuTitle {
+-moz-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
+-moz-user-select:none;
+-webkit-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
+background-color:transparent;
+background-image:url(images/options.png);
+background-position:center center;
+background-repeat:no-repeat;
+background-size:80px;
+border:1px solid #333;
+border-radius:4px;
+box-shadow:2px 2px 3px rgba(0,0,0,0.5);
+color:#FFF;
 font-size:14px;
 font-weight:700;
-margin:0 0 10px;
-padding:3px 6px;
-text-align:center;
-text-shadow:0 1px 0 #666;
+text-shadow:0 1px 0 #000;
 }
-<<<<<<< HEAD
+.ItemDiscussion .Meta, .DataList .Meta {
+font-size: 11px;
+color: #70727c;
+white-space: nowrap;
+padding: 0;
+margin: 0;
+width: 100%;
+position: relative;
+top: -13px;
+left: 200px;
+}
+.MItem {
+margin-left: 0;
+margin-right: 0;
+padding-right: 2px;
+position: relative;
+margin-top: -5px;
+}
+.Meta span a{
+    font-size:10px;
+}
+.Meta span a:hover{
+    font-size:10px;
+}
+.MeBox-SignIn {
+position: relative;
+margin-top: 6px!important;
+}
+.MeBox-SignIn {
+display: none!important;
+}
+span.Bullet{
+display:none!important;
+}
+.MeBox .ProfilePhotoMedium {
+height: 23px!important;
+width: 23px!important;
+border-radius: 0;
+}
+.MeBox .Author.Photo .PhotoWrap img:hover {
+height: 23px!important;
+width: 23px!important;
+border-radius: 0;
+}
+.MeBox .Flyout {
+left: -4px;
+right: inherit;
+top: 150%;
+max-width: 200px;
+}
 
-=======
-.linkBar a.Button{
-white-space: normal;
+.MeBox.FlyoutRight .Flyout {
+left:inherit;
+right:-4px;
 }
-.linkBar a.Button:hover{
-white-space: normal;
+.MeBox .WhoIs {
+min-height: 40px;
+line-height: 1;
 }
->>>>>>> FETCH_HEAD
-.MainForm {
-background:url(images/contnt.png) repeat scroll 0 0 rgba(0,0,0,0.6);
-width:320px;
+.MeBox.FlyoutRight .Flyout:before,.MeBox.FlyoutRight .Flyout:after {
+left:auto;
+right:9px;
 }
-<<<<<<< HEAD
+.MeMenu, body.Vanilla.Post .ToggleFlyout {
 
-=======
-.Mine {
-background: 
-transparent;
+}
+.MeBox a.Username {
+padding: 1px 4px!important;
+line-height: 2;
+margin-top: 0;
 }
 .Menu {
 margin:0 auto;
 position:relative;
-text-align:left;
-=======
->>>>>>> FETCH_HEAD
-.Menu {
-margin:0 auto;
-position:relative;
 text-align:center;
->>>>>>> FETCH_HEAD
 vertical-align:bottom;
 width:100%;
 }
 
 .Menu h1 span img {
-<<<<<<< HEAD
 height:auto!important;
 margin:0 auto;
-width:98%;
-=======
-<<<<<<< HEAD
-height:auto!important;
-margin:0 auto;
-width:98%;
+text-align:center;
+width:220px;
 }
 
-.MenuTitle {
--moz-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
--moz-user-select:none;
--webkit-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-background-color:transparent;
-background-image:url(images/contnt.png);
-background-position:center center;
-background-repeat:repeat;
-border:1px solid #333;
-border-radius:4px;
-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-color:#FFF;
-font-size:14px;
-font-weight:700;
-padding:8px 4px;
-text-shadow:0 1px 0 #000;
+.MenuItems a,.MenuItems a:link,.MenuItems a:visited,.MenuItems a:active {
+color:#fff!important;
+display:block;
+line-height:1;
+padding:3px 5px;
+text-decoration:none;
+white-space:nowrap;
 }
 
-.Message {
-background:transparent;
-background-repeat:repeat;
-color:#fff;
-font:family:Arial;
-font-size:12pt!important;
-font-weight:700;
+.MenuItems a:hover,.MenuItems a:link:hover,.MenuItems a:focus,.MenuItems a:link:focus {
+background:none rgba(0,0,0,0.9)!important;
+color:lime!important;
 }
 
-.Message img {
--moz-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
--webkit-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-border:1px solid #222;
-border-radius:10px;
-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-width:98%!important;
+.MenuItems hr {
+border:0;
+border-bottom:1px solid #ddd;
 }
 
 .MessageForm {
@@ -1634,70 +1052,10 @@ border:1px solid #222;
 box-shadow:2px 2px 3px rgba(0,0,0,0.5);
 }
 
-=======
-    height: auto!important;
-    margin: 0 auto;
-    width: 98%;
-max-width: 1000px;
->>>>>>> FETCH_HEAD
-}
-
-.MenuTitle {
--moz-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
--moz-user-select:none;
--webkit-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-background-color:transparent;
-background-image:url(images/contnt.png);
-background-position:center center;
-background-repeat:repeat;
-border:1px solid #333;
-border-radius:4px;
-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-color:#FFF;
-font-size:14px;
-font-weight:700;
-padding:8px 4px;
-text-shadow:0 1px 0 #000;
-}
-
-.Message {
-background:transparent;
-background-repeat:repeat;
-color:#fff;
-font:family:Arial;
-font-size:12pt!important;
-font-weight:700;
-}
-
-.Message img {
--moz-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
--webkit-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-border:1px solid #222;
-border-radius:10px;
-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-width:98%!important;
-}
-
-.MessageForm {
--moz-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
--webkit-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-background:url(images/contnt.png) transparent;
-border:1px solid #222;
-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-}
-<<<<<<< HEAD
-
-=======
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 .MessageList .Meta .Author a {
 font-size:14px;
 font-weight:700;
 }
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
 
 .MessageList .Meta a {
 color:#555;
@@ -1705,20 +1063,33 @@ font-size:14px;
 min-height:40px;
 }
 
-.MessageList .Meta a,span.DateCreated a:hover,table.PreferenceGroup td.Description,.CategoryDescription {
+.MessageList .Meta a,span.DateCreated a:hover,table.PreferenceGroup td.Description,div.CategoryDescription {
 font-size:14px;
 }
 
 .MessageList .Meta a:hover {
 color:#fff;
-font-size:14px;
 min-height:40px;
 }
 
 .Meta .RSS img {
-height:18px;
+height:auto;
 vertical-align:text-bottom;
-width:18px;
+visibility:hidden;
+width:25px;
+}
+
+.Meta span.MItem.RSS a {
+background-attachment:scroll!important;
+background-clip:border-box!important;
+background-color:transparent!important;
+background-image:url(images/rss.gif)!important;
+background-origin:padding-box!important;
+background-position:0 0!important;
+background-repeat:no-repeat!important;
+background-size:22px auto;
+font-size:22px;
+z-index:1000;
 }
 
 .MultipleEntryMethods .Methods {
@@ -1728,6 +1099,7 @@ border:solid 1px #222;
 font:color:#fff;
 text-shadow:0 1px 0 #000;
 }
+
 
 .Open .MenuTitle {
 -moz-border-radius-bottomleft:0;
@@ -1744,95 +1116,87 @@ box-shadow:2px 2px 3px rgba(0,0,0,0.5);
 color:#fff;
 }
 
-.P {
-text-align:center;
+.OptionsMenu .Flyout {
+right:-9px;
+top:18px;
 }
 
-.P a.Button {
-padding:6px;
-}
-.PanelDiscussions li a {
-color:#000;
-float:none;
-}
-
-.PanelDiscussions li a:hover,.Preview .Message a:hover,.Preview .Message p a:hover,.MessageList .Message a:hover,.MessageList .Message p span a:hover,.Message span a:hover,.ttb-panel a {
-color:#fff;
-}
-
-=======
->>>>>>> FETCH_HEAD
-.MessageList .Meta a {
-color:#555;
-font-size:14px;
-min-height:40px;
-}
-
-.MessageList .Meta a,span.DateCreated a:hover,table.PreferenceGroup td.Description,.CategoryDescription {
-font-size:14px;
-}
-
-.MessageList .Meta a:hover {
-color:#fff;
-font-size:14px;
-min-height:40px;
-}
-
-.Meta .RSS img {
+.OptionsTitle {
+cursor:pointer;
+display:inline-block;
+font-size:0;
 height:18px;
-vertical-align:text-bottom;
-width:18px;
+line-height:999px;
+overflow:hidden;
+padding:0;
+user-select:none;
+vertical-align:top;
+width:21px;
 }
-
-.MultipleEntryMethods .Methods {
-background-image:url(images/menu_bg.png);
-background-repeat:repeat;
-border:solid 1px #222;
-font:color:#fff;
-text-shadow:0 1px 0 #000;
+.Overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background:transparent;
 }
-
-.Open .MenuTitle {
--moz-border-radius-bottomleft:0;
--moz-border-radius-bottomright:0;
--moz-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
--webkit-border-bottom-left-radius:0;
--webkit-border-bottom-right-radius:0;
--webkit-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-background:url(images/menu_bg.png) right -144px no-repeat transparent;
-border:1px solid #666;
-border-bottom-left-radius:0;
-border-bottom-right-radius:0;
-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-color:#fff;
+.Pager a, .Pager span {
+display: inline-block;
+margin: 0;
+padding: 2px 7px!important;
+line-height: 1;
+}
+.Pager .Highlight {
+color: #fff;
 }
 
 .P {
 text-align:center;
 }
-
-.PanelDiscussions li a {
-color:#000;
-float:none;
+.PasswordStrength .Background {
+height: 4px;
+background-color:transparent;
+width: 100%;
+position: absolute;
+left: 0;
 }
 
-.PanelDiscussions li a:hover,.Preview .Message a:hover,.Preview .Message p a:hover,.MessageList .Message a:hover,.MessageList .Message p span a:hover,.Message span a:hover,.ttb-panel a {
-color:#fff;
-}
-<<<<<<< HEAD
 
-=======
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
-.PanelInfo {
+.P.PageDescription {
+background:url(images/contnt.png);
 border:1px solid #222;
+font-size:18px;
+padding:3px;
+text-align:center;
+margin: 13px 0;
+}
+
+.PanelActivity li {
+background:url(images/contnt.png);
+border-bottom:1px solid #222;
+color:#fff;
+font-size:11px;
+line-height:1.6;
+padding:2px 6px;
+}
+.PanelActivity {
+border: 1px solid #222;
+border-bottom: 0;
+}
+.PanelDiscussions li a {
+color:#000;
+float:none;
+}
+
+.PanelDiscussions li a:hover,.Preview .Message a:hover,.Preview .Message p a:hover,.MessageList .Message a:hover,.MessageList .Message p span a:hover,.Message span a:hover,.ttb-panel a {
+color:#fff;
+}
+
+.PanelInfo {
 }
 
 .PanelInfo .Active {
-<<<<<<< HEAD
-background:#fff;
-=======
-<<<<<<< HEAD
 background:#fff;
 border:none;
 }
@@ -1843,10 +1207,8 @@ margin-right:11px;
 }
 
 .PanelInfo li {
-background:transparent;
 background-image:url(images/contnt.png);
 background-repeat:repeat;
-border:none;
 }
 
 .Photo img {
@@ -1855,54 +1217,38 @@ border:none;
 border:none;
 border-radius:10px;
 box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-=======
-background:#80b80c;
->>>>>>> FETCH_HEAD
-border:none;
 }
 
-.PanelInfo .Meta span,.PanelInfo .Meta strong {
+.PopList .Empty {
+border:none;
 color:#fff;
-margin-right:11px;
 }
 
-.PanelInfo li {
-background:transparent;
-background-image:url(images/contnt.png);
-background-repeat:repeat;
-border:none;
+.PopList .ItemContent {
+margin: 0;
+line-height: 1.4;
+text-align: left;
 }
 
-.Photo img {
-<<<<<<< HEAD
--moz-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
--webkit-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-border:none;
-border-radius:10px;
-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-=======
--moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
--webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
-border: none;
-box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
-border-radius: 10px;
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
+.PopList .Meta {
+color:#ccc;
+font-size: 80%;
+margin-top: 6px;
+}
+
+.Popup #Content {
+background:url(images/contnt.png)#666!important;
+margin-left:0!important;
+max-width:600px;
+overflow:auto;
+width:500px;
 }
 
 .Popup #ConversationForm form {
 background-color:transparent;
 background-image:url(images/contnt.png);
 background-repeat:repeat;
-<<<<<<< HEAD
 background-size:100% 100%;
-=======
-<<<<<<< HEAD
-background-size:100% 100%;
-=======
-background-size: 100% 100%;
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 border-radius:0 0 0 0;
 padding:10px;
 }
@@ -1911,8 +1257,7 @@ padding:10px;
 background:#fff;
 }
 
-<<<<<<< HEAD
-.Popup #Form_Form,.Popup .Legal,.Popup .Content form {
+.Popup #Form_Form,div.Popup .Legal,div.Popup .Content form {
 background:none repeat scroll 0 0 rgba(0,0,0,0.6);
 color:#FFF;
 font-size:14px;
@@ -1920,53 +1265,24 @@ font-weight:700;
 text-shadow:0 1px 0 #000;
 }
 
-.Popup .Body {
-background:transparent!important;
-min-width:320px;
-}
-
-.Popup .Legal,.Popup .Content form {
-max-height:840px!important;
+.Popup .Content #Content .Center {
+background:url(images/contnt.png)#666!important;
+max-width:600px;
 overflow:auto;
-padding:0 10px 10px;
 }
 
-.Popup a {
-color:#ccc;
-}
-
-.Popup a,#ThemeCredit a {
-color:#ADADAD;
-}
-
-.Popup a:hover {
-text-decoration:none;
-}
-
-.Popup h1,.Popup h2 {
-background:url(images/menu_bg.png)!important;
-background-repeat:repeat;
-border:1px solid #222!important;;
-border-radius:0;
-box-shadow:0 0 2px #999;
-color:#000;
+.Preferences h3 {
 font-size:16px;
-background-color:transparent!important;
-}
-
-.Popup,.PanelInfo .Active a {
-color:#111;
-font-size:14px;
+margin:0 auto;
+padding:10px 0 4px;
 }
 
 .Preview {
-background:#222!important;
 background-color:transparent;
 background-image:url(images/contnt.png);
 background-repeat:repeat;
 background-size:100% 100%;
 border:1px solid #222;
-font-size:14px;
 }
 
 .Preview .Message a,.Preview .Message p a,.MessageList .Message a,.MessageList .Message p span a,.Message span a {
@@ -1974,13 +1290,68 @@ color:#000;
 }
 
 .Preview .Message,.Preview .Message p,.MessageList .Message,.MessageList .Message p span,.Message span {
-color:#000!important;
+color:#000;
 margin:8px 0;
+padding-bottom: 20px;
+}
+
+.ProfileOptions {
+float:right;
+position:relative;
+top:2px;
+}
+
+.ProfilePhotoLarge {
+width:250px;
+}
+
+.Reactions .MenuItems a:hover .ReactSprite,.MenuItems a:hover .Sprite {
+background-image:url(images/sprites-14-ffffff.png);
 }
 
 .SingleEntryMethod {
 margin:0 auto;
-width:320px;
+min-width:320px;
+}
+
+.Sprite16 {
+background: url(images/sprites.png) 0 0 no-repeat;
+display: inline-block;
+height: 17px;
+width: 17px;
+vertical-align: top;
+}
+.SpNotifications, .SpGlobe {
+background-position: -32px -84px;
+}
+.SpNotifications:hover,.SpGlobe:hover{
+background-position: -32px -84px;
+background-color:lime;
+border-radius:17px;
+}
+.SpInbox, .SpEnvelope {
+background-position: 1px -99px;
+}
+.SpInbox:hover, .SpEnvelope:hover {
+background-position: 1px -99px;
+background-color:lime;
+border-radius:0px;
+}
+.SpBookmarks, .SpStar {
+background-position: -80px -116px;
+}
+.SpBookmarks:hover, .SpStar:hover {
+background-position: -80px -116px;
+background-color:lime;
+border-radius:17px;
+}
+.SpDashboard, .SpOptions, .SpCog {
+background-position: 1px -83px;
+}
+.SpDashboard:hover, .SpOptions:hover, .SpCog:hover {
+background-position: 1px -83px;
+background-color:lime;
+border-radius:17px;
 }
 
 .TabLink,.TabLink:link,.TabLink:active,.TabLink:visited {
@@ -1991,59 +1362,14 @@ border:1px solid #666;
 color:#000;
 font-size:14px!important;
 text-shadow:0 1px 0 #666;
-=======
-.Popup #Form_Form, div.Popup .Legal, div.Popup .Content form {
-background: none repeat scroll 0 0 rgba(0,0,0,0.6);
-color: #FFFFFF;
-font-size: 14px;
-font-weight: 700;
-text-shadow: 0 1px 0 #000000;
-}
-
-.Preview {
-background-color:transparent;
-background-image:url(images/contnt.png);
-background-repeat:repeat;
-background-size: 100% 100%;
-border:1px solid #222;
-}
-
-.Preview .Message a,.Preview .Message p a,.MessageList .Message a,.MessageList .Message p span a,.Message span a {
-color:#87c10b;;
-}
-
-.Preview .Message a:hover,.Preview .Message p a:hover,.MessageList .Message a:hover,.MessageList .Message p span a:hover,.Message span a:hover {
-color:#fff;
-}
-
-.Preview .Message,.Preview .Message p,.MessageList .Message,.MessageList .Message p span,.Message span {
-color:#87c10b;!important;
-margin:8px 0;
-}
-
-.TabLink,.TabLink:link,.TabLink:active,.TabLink:visited {
-background-image:url(images/contnt.png);
-background-repeat:repeat;
-background-color:transparent;
-border:1px solid #666;
-color:#87c10b;;
-font-size:14px!important;
-text-shadow:0 1px 0 #000;
->>>>>>> FETCH_HEAD
 }
 
 .TabLink:hover {
 -moz-box-shadow:0 0 5px #aaa;
 -webkit-box-shadow:0 0 5px #aaa;
-<<<<<<< HEAD
 background-color:transparent;
 background-image:url(images/menu_bg.png);
 background-repeat:repeat;
-=======
-background-image:url(images/menu_bg2.png);
-background-repeat:repeat;
-background-color:transparent;
->>>>>>> FETCH_HEAD
 border:1px solid #444;
 box-shadow:0 0 5px #aaa;
 color:#fff;
@@ -2057,7 +1383,6 @@ right:5px;
 }
 
 .Tabs .Breadcrumbs {
-<<<<<<< HEAD
 background:none repeat scroll 0 0 transparent;
 }
 
@@ -2067,14 +1392,10 @@ display:inline;
 font-size:17px;
 margin:0;
 text-shadow:0 1px 0 #666;
-=======
-background: none repeat scroll 0 0 transparent;
->>>>>>> FETCH_HEAD
 }
 
 .Tabs li a span {
 background:#222;
-<<<<<<< HEAD
 border-radius:14px;
 color:#fff!important;
 font-size:14px;
@@ -2093,6 +1414,8 @@ background:none transparent;
 background-size:50px 50px;
 border:none;
 border-radius:5px 5px 0 0;
+margin:5px;
+text-align:center;
 }
 
 .Tabs.Headings.CategoryHeadings,.Tabs.DiscussionsTabs,.Tabs.ActivityTabs,.Tabs.HeadingTabs.DiscussionTabs.FirstPage {
@@ -2102,25 +1425,30 @@ background-repeat:repeat;
 background-size:100% 100%;
 }
 
-.Tabs.ProfileTabs {
-background-color:transparent;
+.ToggleFlyout {
+display:inline-block;
+left:0;
+position:relative;
+top:0;
 }
 
 .ToggleFlyout .Flyout {
-background-size:100% 100%;
-border-radius:5px;
-display:none;
-left:0;
-position:absolute;
-top:100%;
-urlimagescontntpngscroll00rgba82828204background-repeat:no-repeat;
-z-index:100;
+background: url(images/contnt.png)#666;
+background-repeat: repeat;
+background-size: 100% 100%;
+border-radius: 5px;
+display: none;
+left: -10px;
+position: absolute;
+top: 100%;
+z-index: 100;
+width: 150px;
 }
 
 .ToggleFlyout.Open {
 background:url(images/menu_bg.png);
 background-size:100% 100%;
-z-index:100;
+z-index:110;
 }
 
 .UploadProgress {
@@ -2137,365 +1465,60 @@ text-shadow:0 1px 1px #000;
 width:200px;
 z-index:0;
 }
-
+.UserBox .PhotoWrap, .MeBox .PhotoWrap {
+padding: 4px 4px!important;
+}
+.UserBox .Username, .MeBox .Username {
+font-weight: bold;
+vertical-align: bottom;
+font-size: 14px;
+line-height: 2.5;
+float: left;
+}
 .User h1 {
-background:url(images/menu_bg.png) repeat scroll transparent;
 color:#fff;
-font-size:24px;
-font-weight:700;
+font-size:12pt;
+font-weight:400;
 padding:10px;
-text-align:center;
-text-shadow:0 1px 0 #000;
+}
+
+.cleditorButton:hover {
+background:rgba(0,0,0,0.2);
+}
+
+.cleditorList {
+background:url(images/contnt.png)transparent!important;
+font-size:11pt;
+padding:4px;
+}
+
+.cleditorList p:hover,.cleditorList h1:hover,.cleditorList h2:hover,.cleditorList h3:hover,.cleditorList h4:hover,.cleditorList h5:hover,.cleditorList h6:hover,.cleditorList font:hover,.cleditorColor div:hover,.cleditorList div:hover {
+background:rgba(0,0,0,0.3)!important;
 }
 
 .cleditorMain {
-background-color:transparent!important;
-border:1px solid #222;
-color:#000!important;
-font-size:14px;
-font-weight:700;
-padding:0 1px 1px;
-}
-
-<<<<<<< HEAD
-.Popup #Form_Form,.Popup .Legal,.Popup .Content form {
-background:none repeat scroll 0 0 rgba(0,0,0,0.6);
-color:#FFF;
-font-size:14px;
-font-weight:700;
-text-shadow:0 1px 0 #000;
-}
-
-.Popup .Body {
-background:transparent;
-min-width:320px;
-}
-
-.Popup .Legal,.Popup .Content form {
-max-height:840px!important;
-overflow:auto;
-padding:0 10px 10px;
-}
-
-.Popup a {
-color:#ccc;
-}
-
-.Popup a,#ThemeCredit a {
-color:#ADADAD;
-}
-
-.Popup a:hover {
-text-decoration:none;
-}
-
-.Popup h1,.Popup h2 {
-background:url(images/menu_bg.png);
-background-repeat:repeat;
-border:1px solid #222;
-border-radius:0;
-box-shadow:0 0 2px #999;
-color:#000;
-font-size:16px;
-}
-
-.Popup,.PanelInfo .Active a {
-color:#111;
-font-size:14px;
-}
-
-.Preview {
-background:#222!important;
-=======
-.cleditorMain iframe {
-border:none;
-height:auto!important;
-margin:0;
-padding:0;
-}
-
-.cleditorMain textarea {
--moz-border-radius:0;
--webkit-border-radius:0;
-background:transparent;
-border:none;
-border-radius:0;
-color:#000!important;
-font:12pt Arial,Verdana;
-font-weight:700!important;
-height:auto!important;
-margin:0;
-outline:none;
-overflow-y:scroll;
-padding:0;
-resize:none;
-}
-
-.cleditorToolbar {
-background-attachment:scroll;
-background-clip:border-box;
->>>>>>> FETCH_HEAD
-background-color:transparent;
-background-image:none;
-background-origin:padding-box;
-background-position:0 0;
-background-repeat:repeat;
-<<<<<<< HEAD
-background-size:100% 100%;
-border:1px solid #222;
-font-size:14px;
-}
-
-.Preview .Message a,.Preview .Message p a,.MessageList .Message a,.MessageList .Message p span a,.Message span a {
-color:#000;
-}
-
-.Preview .Message,.Preview .Message p,.MessageList .Message,.MessageList .Message p span,.Message span {
-color:#000!important;
-margin:8px 0;
-}
-
-.SingleEntryMethod {
-margin:0 auto;
-width:320px;
-}
-
-.TabLink,.TabLink:link,.TabLink:active,.TabLink:visited {
-background-color:transparent;
-background-image:url(images/contnt.png);
-background-repeat:repeat;
-border:1px solid #666;
-color:#000;
-font-size:14px!important;
-text-shadow:0 1px 0 #666;
-}
-
-.TabLink:hover {
--moz-box-shadow:0 0 5px #aaa;
--webkit-box-shadow:0 0 5px #aaa;
-background-color:transparent;
-background-image:url(images/menu_bg.png);
-background-repeat:repeat;
-border:1px solid #444;
-box-shadow:0 0 5px #aaa;
-=======
-background-size:95px auto;
-border-bottom:1px solid #222;
-}
-.cleditorDisabled {
-opacity: 1;
-}
-.ttb-cta:hover {
-background:transparent;
-outline:1px solid #ff2400!important;
-text-decoration:none!important;
-}
-
-.ttb-panel {
-background:rgba(0,0,0,0.5)!important;
-border:none!important;
-color:#fff;
-display:none;
-font-family:Arial;
-font-size:12px;
-}
-
-.ttb-panel.notranslate {
-background:rgba(0,0,0,0.5);
-border:none!important;
-color:#fff;
-display:none;
-font-family:Arial;
-font-size:12px;
-text-align:left;
-}
-
-.ttb-panel.notranslate div {
-background:rgba(0,0,0,0.5)!important;
-border:none!important;
-font-size:14px!important;
-}
-
-.ttb-panel.notranslate div a {
-background:none transparent!important;
-border:none!important;
->>>>>>> FETCH_HEAD
-color:#fff;
-font-size:14px!important;
-}
-
-.ttb-panel.notranslate div a:hover {
-background:rgba(0,0,0,0.5)!important;
-border:1px solid #222!important;
-color:#ff2400!important;
-outline:1px solid #ff2400!important;
-text-decoration:none!important;
-}
-
-<<<<<<< HEAD
-.Tabs .Breadcrumbs {
-background:none repeat scroll 0 0 transparent;
-}
-
-.Tabs li a {
-color:#000;
-display:inline;
-font-size:17px;
-margin:0;
-text-shadow:0 1px 0 #666;
-}
-
-.Tabs li a span {
-background:#222;
-border-radius:14px;
-=======
-.ttb-paneltop {
-background:rgba(0,0,0,0.5)!important;
-border:none!important;
-}
-
-NonTab SignOut a {
-font-size:10pt;
-font-weight:700;
-}
-
-a,a:hover,a:link:hover,a:hover image,a:link img:hover {
-color:#fff;
-font-size:14px;
-font-weight:700;
-text-shadow:0 1px 0 #000;
-=======
->>>>>>> FETCH_HEAD
-color:#fff!important;
-font-size:14px;
-}
-
-.Tabs li a:hover {
-color:#fff;
-display:inline;
-font-size:17px;
-margin:0;
-text-shadow:0 1px 0 #000;
-}
-
-.Tabs,.Headings {
-background:none transparent;
-background-size:50px 50px;
-border:none;
-border-radius:5px 5px 0 0;
-}
-
-.Tabs.Headings.CategoryHeadings,.Tabs.DiscussionsTabs,.Tabs.ActivityTabs,.Tabs.HeadingTabs.DiscussionTabs.FirstPage {
-background-color:transparent;
-background-image:url(images/menu_bg.png);
-background-repeat:repeat;
-background-size:100% 100%;
-}
-
-.Tabs.ProfileTabs {
-background-color:transparent;
-}
-
-.ToggleFlyout .Flyout {
-background-size:100% 100%;
-border-radius:5px;
-display:none;
-left:0;
-position:absolute;
-top:100%;
-urlimagescontntpngscroll00rgba82828204background-repeat:no-repeat;
-z-index:100;
-}
-
-.ToggleFlyout.Open {
-background:url(images/menu_bg.png);
-background-size:100% 100%;
-z-index:100;
-}
-
-.UploadProgress {
--moz-border-radius:2px;
--webkit-border-radius:2px;
-background:url(images/upload-progress-back1.gif)!important;
-border:1px solid #666;
-border-radius:2px;
-color:#fff;
-font-size:14px;
-<<<<<<< HEAD
-height:39px;
-margin:10px 0;
-text-shadow:0 1px 1px #000;
-width:200px;
-z-index:0;
-}
-
-.User h1 {
-background:url(images/menu_bg.png) repeat scroll transparent;
-color:#fff;
-font-size:24px;
-=======
-font-weight:700;
-text-shadow:0 1px 0 #000;
->>>>>>> FETCH_HEAD
-}
-
-a.BigButton {
 -moz-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
 -webkit-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-background:url(images/contnt.png);
-background-repeat:repeat-x;
-border:1px solid #666;
-border-radius:3px 3px 3px 3px;
-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-<<<<<<< HEAD
-color:#000!important;
-=======
-color:#87c10b!important;
->>>>>>> FETCH_HEAD
-cursor:pointer;
-display:block;
-font-size:16px;
->>>>>>> FETCH_HEAD
-font-weight:700;
-padding:10px;
-text-align:center;
-<<<<<<< HEAD
-text-shadow:0 1px 0 #666;
-=======
-text-shadow:0 1px 0 #000;
->>>>>>> FETCH_HEAD
-}
-
-<<<<<<< HEAD
-.cleditorMain {
 background-color:transparent!important;
-=======
-a.BigButton:hover {
--moz-box-shadow:0 0 5px #aaa;
--webkit-box-shadow:0 0 5px #aaa;
-<<<<<<< HEAD
-background:url(images/menu_bg.png);
 border:1px solid #222;
-box-shadow:0 0 5px #aaa;
-color:#fff!important;
-font-size:16px!important;
-text-shadow:0 1px 0 #000;
-=======
-box-shadow:0 0 5px #aaa;
-background:url(images/menu_bg2.png);
->>>>>>> FETCH_HEAD
-border:1px solid #222;
+border-radius:5px;
+box-shadow:2px 2px 3px rgba(0,0,0,0.5);
 color:#000!important;
 font-size:14px;
 font-weight:700;
-padding:0 1px 1px;
+margin:0 5px auto;
+padding:0 1px 5px;
+height:480px!important;
 }
 
 .cleditorMain iframe {
-border:none;
-height:auto!important;
+background:transparent;
+border:none!important;
+box-sizing:border-box;
+height:480px!important;
 margin:0;
 padding:0;
+width:100%!important;
 }
 
 .cleditorMain textarea {
@@ -2507,7 +1530,7 @@ border-radius:0;
 color:#000!important;
 font:12pt Arial,Verdana;
 font-weight:700!important;
-height:auto!important;
+height:480px!important;
 margin:0;
 outline:none;
 overflow-y:scroll;
@@ -2515,16 +1538,80 @@ padding:0;
 resize:none;
 }
 
+.cleditorMain textarea,.cleditorMain textarea:focus {
+-moz-border-radius:0;
+-webkit-border-radius:0;
+background:transparent;
+border:none;
+border-radius:0;
+color:#000!important;
+font:12pt Arial,Verdana;
+font-weight:700!important;
+height:480!important;
+margin:0;
+outline:none;
+overflow-y:scroll;
+padding:0;
+resize:none;
+width:100%!important;
+}
+
+.cleditorMsg {
+background:url(images/contnt.png)transparent!important;
+font-size:11pt;
+padding:4px;
+width:150px;
+}
+
+.cleditorPopup {
+background-color:transparent;
+border:solid 1px #222;
+color:#000;
+cursor:default;
+font:10pt Arial,Verdana;
+font-weight:700;
+position:absolute;
+z-index:10000;
+}
+
+.cleditorPrompt {
+background:url(images/contnt.png)transparent;
+font-size:10pt;
+padding:4px;
+}
+
+.cleditorPrompt input,.cleditorPrompt textarea {
+font:11pt Arial,Verdana;
+}
+
 .cleditorToolbar {
 background-attachment:scroll;
 background-clip:border-box;
 background-color:transparent;
-background-image:url(images/menu_bg.png)!important;
+background-image:url(images/menu_bg.png);
 background-origin:padding-box;
 background-position:0 0;
 background-repeat:repeat;
-background-size:95px auto;
+background-size:100% 100%!important;
 border-bottom:1px solid #222;
+height:60px!important;
+}
+
+.flag {
+background:url(flags.png) no-repeat;
+cursor:help;
+float:right;
+height:11px;
+margin-right:5px;
+margin-top:10px;
+width:16px;
+}
+
+.flag span {
+margin: 0 20px auto!important;
+position: relative!important;
+top:0px;
+width: 100%;
 }
 
 .ttb-cta:hover {
@@ -2578,38 +1665,77 @@ background:rgba(0,0,0,0.5)!important;
 border:none!important;
 }
 
+::-webkit-scrollbar {
+width:12px;
+}
+
+::-webkit-scrollbar-thumb {
+-webkit-border-radius:10px;
+-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.5);
+background:#fff;
+border-radius:10px;
+}
+
+::-webkit-scrollbar-track {
+-webkit-border-radius:0;
+-webkit-box-shadow:inset 0 0 6px #666;
+background:#000;
+border-radius:0;
+}
+
+
+::-moz-scrollbar {
+width:12px;
+}
+
+::-moz-scrollbar-thumb {
+-moz-border-radius:10px;
+-moz-box-shadow:inset 0 0 6px rgba(0,0,0,0.5);
+background:#fff;
+border-radius:10px;
+}
+
+::-moz-scrollbar-track {
+-moz-border-radius:0;
+-moz-box-shadow:inset 0 0 6px #666;
+background:#000;
+border-radius:0;
+}
+
 NonTab SignOut a {
 font-size:10pt;
 font-weight:700;
 }
 
-a,a:hover,a:link:hover,a:hover image,a:link img:hover {
+a {
 color:#fff;
 font-size:14px;
 font-weight:700;
 text-shadow:0 1px 0 #000;
 }
+a.MeButton.FlyoutButton{
 
-a.BigButton {
--moz-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
--webkit-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-background:url(images/contnt.png);
-background-repeat:repeat-x;
-border:1px solid #666;
-border-radius:3px 3px 3px 3px;
-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-color:#000!important;
-cursor:pointer;
-display:block;
-font-size:16px;
-font-weight:700;
-margin:0 0 10px;
-padding:7px;
-text-align:center;
-text-shadow:0 1px 0 #666;
+}
+a.BigButton, a.Button.Primary.Action.NewDiscussion.BigButton, a.Button.BigButton.NewConversation.Primary, a.Button.Danger.BigButton.ClearConversation {
+-moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+-webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+background: url(images/contnt.png);
+background-repeat: repeat-x;
+border: 1px solid #666;
+border-radius: 3px 3px 3px 3px;
+box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+color: #000!important;
+cursor: pointer;
+display: block;
+font-size: 16px;
+font-weight: 700;
+margin: 0;
+padding: 10px!important;
+text-shadow: 0 1px 0 #666;
+width: 91%;
 }
 
-a.BigButton:hover {
+a.BigButton:hover,a.Button.Primary.Action.NewDiscussion.BigButton:hover,a.Button.BigButton.NewConversation.Primary:hover,a.Button.Danger.BigButton.ClearConversation:hover {
 -moz-box-shadow:0 0 5px #aaa;
 -webkit-box-shadow:0 0 5px #aaa;
 background:url(images/menu_bg.png);
@@ -2617,15 +1743,20 @@ border:1px solid #222;
 box-shadow:0 0 5px #aaa;
 color:#fff!important;
 font-size:16px!important;
-<<<<<<< HEAD
 text-shadow:0 1px 0 #000;
-=======
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 }
 
 a.Bookmark,a.Bookmarked,a.Bookmarking {
 background:url(images/star_sprite1.png) top center no-repeat;
+display:inline-block;
+top: -10px;
+position: relative;
+height:20px;
+margin:0 -30px 0 0;
+overflow:hidden;
+text-indent:-1000px;
+vertical-align:top;
+width:20px;
 }
 
 a.Bookmarked {
@@ -2636,15 +1767,7 @@ a.Bookmarking {
 background-position:bottom center;
 }
 
-<<<<<<< HEAD
-a.Button,.Button,#Menu a,a.Back,a.Cancel,a.Category,.AttachFileLink a {
-=======
-<<<<<<< HEAD
-a.Button,.Button,#Menu a,a.Back,a.Cancel,a.Category,.AttachFileLink a,a.Button.SignInPopup,a.Button.ApplyButton {
-=======
-a.Button,.Button,#Menu a,a.Back,a.Cancel,a.Category,.AttachFileLink a{
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
+a.Button,.Button,#Menu a,a.Back,a.Cancel,a.Category,.AttachFileLink a,.ProfileButtons,.Activities a.CommentLink,a.Button.Cancel,.Activities a.CommentLink,a.DeleteComment.Popable,a.DeleteComment,a.Button.SignInPopup,a.Button.ApplyButton,a.CommentOption,input.Button.Primary,span embed,.NavButton,b.Subject a,li.Item.Title a,li.Item.Center a,a.ReactButton.Quote.Visible,.CommentForm .WriteButton, .CommentForm .PreviewButton, .CommentForm .DraftButton,span.Back a, .SignInLinks a.SignInPopup, .SignInLinks a.ApplyButton,span.AddComment a.CommentOption,.Pager a, .Pager span,a.MeButton.FlyoutButton,.MeBox a.PhotoWrap,.MeBox a.Username {
 -moz-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
 -webkit-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
 background:url(images/contnt.png);
@@ -2652,72 +1775,25 @@ background-repeat:repeat-x;
 border:1px solid #666;
 border-radius:3px 3px 3px 3px;
 box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-<<<<<<< HEAD
 color:#000;
-=======
-<<<<<<< HEAD
-color:#000;
-=======
-color:#87c10b;
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 cursor:pointer;
 display:inline-block;
 font-size:14px;
 font-weight:700;
-margin:0 0 10px;
-padding:3px 6px;
-text-align:center;
-<<<<<<< HEAD
-text-shadow:0 1px 0 #666;
-=======
-<<<<<<< HEAD
-text-shadow:0 1px 0 #666;
-}
-
-a.Button.SignInPopup,a.Button.ApplyButton{
-padding:6px 6px!important;
-}
-
-a.Button.SignInPopup:hover,a.Button.ApplyButton:hover,.Button:hover,a.Back:hover,#Menu a:hover,a.Cancel:hover,a.Category:hover,.AttachFileLink a:hover,.ItemContent.Category.Read a:hover,span.Breadcrumb.FirstCrumb a:hover,a.Button.SignInPopup:hover,a.Button.ApplyButton:hover {
--moz-box-shadow:0 0 5px #aaa;
--webkit-box-shadow:0 0 5px #aaa;
-background:url(images/menu_bg.png);
-=======
-text-shadow:0 1px 0 #000;
->>>>>>> FETCH_HEAD
-}
-
-a.Button.SignInPopup,a.Button.ApplyButton {
--moz-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
--webkit-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-display:inline-block;
-line-height:100%;
-margin:3px auto;
 padding:6px;
+text-align:center;
+text-shadow:0 1px 0 #666!important;
 }
 
-a.Button.SignInPopup:hover,a.Button.ApplyButton:hover,.Button:hover,a.Back:hover,#Menu a:hover,a.Cancel:hover,a.Category:hover,.AttachFileLink a:hover,.ItemContent.Category.Read a:hover,span.Breadcrumb.FirstCrumb a:hover {
+a.Button.SignInPopup:hover,a.Button.ApplyButton:hover,.Button:hover,a.Back:hover,#Menu a:hover,a.Cancel:hover,a.Category:hover,.AttachFileLink a:hover,.ProfileButtons:hover,.Activities a.CommentLink:hover,a.Button.Cancel:hover,.Activities a.CommentLink:hover,a.DeleteComment.Popable:hover,a.CommentLink:hover,a.CommentOption:hover,.Button.Active,.ButtonGroup.Open .Button.Handle,.Button:focus,.Button:active,input.Button.Primary:hover,span embed:hover,span embed:focus,.NavButton:hover,.NavButton:focus,.ButtonGroup.Open .NavButton.Handle,b.Subject a:hover,li.Item.Title a:hover,li.Item.Center a:hover,a.ReactButton.Quote.Visible:hover,.CommentForm .WriteButton:hover, .CommentForm .PreviewButton:hover, .CommentForm .DraftButton:hover,span.Back a:hover, .SignInLinks a.SignInPopup:hover, .SignInLinks a.ApplyButton:hover,span.AddComment a.CommentOption:hover,.Pager a:hover, .Pager span:hover,a.MeButton.FlyoutButton:hover,.MeBox a.PhotoWrap:hover ,.MeBox a.Username:hover{
 -moz-box-shadow:0 0 5px #aaa;
 -webkit-box-shadow:0 0 5px #aaa;
-<<<<<<< HEAD
 background:url(images/menu_bg.png);
-=======
-background:url(images/menu_bg2.png);
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 border:1px solid #222;
 box-shadow:0 0 5px #aaa;
 color:#fff;
-text-shadow:0 1px 0 #000;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
+text-shadow:0 1px 0 #000!important;
+    transition: background 0.5s ease 0s;
 }
 
 a.Close span {
@@ -2725,18 +1801,11 @@ color:#fff;
 font-family:arial;
 font-size:22px;
 font-weight:700;
+margin: 0 5px auto;
 }
 
 a.Close span:hover {
-<<<<<<< HEAD
 color:#000;
-=======
-<<<<<<< HEAD
-color:#000;
-=======
-color:#87c10b;
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 font-size:22px;
 font-weight:700;
 line-height:1;
@@ -2749,14 +1818,14 @@ font-size:14px;
 font-weight:700;
 }
 
-a.Permalink:hover,a.CommentOption:hover {
+a.Permalink:hover {
 color:#fff;
-<<<<<<< HEAD
-font-size:14px!important;
-=======
-<<<<<<< HEAD
 font-size:14px!important;
 font-weight:700;
+}
+
+a.tooltip {
+float:right;
 }
 
 a.ttb-close {
@@ -2765,56 +1834,45 @@ color:#fff!important;
 font-size:14px!important;
 }
 
+a:hover,a:link:hover,a:hover image,a:link img:hover {
+color:lime;
+font-size:14px;
+font-weight:700;
+text-shadow:0 1px 0 #000;
+}
+
+b.Subject a, li.Item.Title a, strong, li.Item.Center a {
+color: lime;
+padding: 0;
+font-size: 12px;
+background: none transparent;
+box-shadow: none;
+border: none;
+text-align: left;
+}
+b.Subject a:hover, li.Item.Title a:hover, strong, li.Item.Center a:hover {
+color: #fff;
+padding: 0;
+font-size: 12px;
+background: none transparent;
+box-shadow: none;
+border: none;
+
+}
 body {
 background-attachment:fixed;
 background-clip:border-box;
-background-image:url(images/woodbig.jpg);
+background:url('images/woodbig.jpg')#222;
 background-origin:padding-box;
-background-position:center bottom -300px;
 background-repeat:repeat;
-background-size:100% 130%;
+background-size:100% 100%;
+border:14px solid #222;
 color:#000;
 font-weight:700;
+overflow-x:hidden;
+overflow-y:scroll;
+padding:10px 10px 80px;
 text-shadow:0 1px 0 #666;
-=======
-font-size:14pxt!important;
->>>>>>> FETCH_HEAD
-font-weight:700;
-}
-
-a.ttb-close {
-background:#222!important;
-color:#fff!important;
-font-size:14px!important;
-}
-
-body {
-<<<<<<< HEAD
-background-attachment:fixed;
-background-clip:border-box;
-background-image:url(images/woodbig.jpg);
-background-origin:padding-box;
-background-position:center bottom -300px;
-background-repeat:repeat;
-background-size:100% 130%;
-color:#000;
-font-weight:700;
-text-shadow:0 1px 0 #666;
-=======
-background-attachment: fixed;
-background-clip: border-box;
-background-image: url(images/jkbg.png);
-background-origin: padding-box;
-background-position:top center;
-background-size:120%;
-    background-repeat: no-repeat;
-background-color:#0b1a05;
-    background-size: auto;
-color: #2e9d01;
-font-weight: 700;
-text-shadow: 0 1px 0 #000;
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 }
 
 body #Head h1 {
@@ -2826,16 +1884,28 @@ margin:0;
 padding:21px 10px 4px 0;
 }
 
-<<<<<<< HEAD
+body#dashboard_entry_password #Content form,body#dashboard_entry_signin #Content form,body#dashboard_entry_index #Content form,.SignInPopup form {
+width:300px;
+}
+
+body.Dashboard.Activity .DataList .Options,body.Dashboard.Activity .MessageList .Options {
+padding:0;
+position:relative;
+right:8px!important;
+top:6px;
+}
+
+body.Dashboard.Activity .DataList li.CommentForm {
+background:transparent;
+border:none;
+margin-left:-60px;
+}
+
 body.Dashboard.Activity.index #Content,body.add #Content {
-width:97%;
+width:65%;
 }
 
-body#dashboard_entry_password #Content form,body#dashboard_entry_signin #Content form,body#dashboard_entry_index #Content form,.SignInPopup form {
-width:300px;
-}
-
-body#dashboard_entry_register.Dashboard.Entry.register .Box {
+body.Dashboard.Entry.register div.Box {
 -moz-box-shadow:none;
 -webkit-box-shadow:none;
 background:hsla(0,0%,0%,0);
@@ -2845,29 +1915,179 @@ margin:0 auto;
 width:300px;
 }
 
-=======
-body#dashboard_activity_index.Dashboard.Activity.index #Content,body.add #Content {
-width:97%;
-}
-
-body#dashboard_entry_password #Content form,body#dashboard_entry_signin #Content form,body#dashboard_entry_index #Content form,.SignInPopup form {
-width:300px;
-}
-
-body#dashboard_entry_register.Dashboard.Entry.register .Box {
--moz-box-shadow:none;
--webkit-box-shadow:none;
-background:hsla(0,0%,0%,0);
-border:none;
-box-shadow:none;
+body.Dashboard.Plugin #Content {
+border:1px solid #222!important;
+float:none!important;
 margin:0 auto;
-width:300px;
+width:98%!important;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
+body.Dashboard.Plugin #Foot {
+background:transparent;
+clear:both;
+color:#fff;
+font-size:13px;
+margin-top:-50px!important;
+padding:0!important;
+text-align:center;
+top:80px;
+width:100%;
+border: none;
+}
+
+body.Dashboard.Plugin #Foot div {
+display:inline-block;
+margin:0;
+padding:0;
+position:relative;
+text-align:center;
+width:auto!important;
+border: none;
+}
+
+body.Dashboard.Plugin #FootMenu ul#Menu {
+margin: 0 auto;
+padding: 5px;
+position: relative;
+text-align: center;
+}
+body.Dashboard.Plugin #Panel {
+display:inline!important;
+float:none!important;
+margin:50px auto!important;
+text-align:center;
+width:250px;
+}
+
+body.Dashboard.Plugin p#back-top {
+top:0!important;
+}
+
+body.Dashboard.Plugin p.Left {
+float:left;
+margin-left:150px;
+}
+
+body.Dashboard.Plugin table#Log.AltColumns,body.Dashboard.Plugin table#Users.AltColumns,body.Dashboard.Plugin table tbody th,body.Dashboard.Plugin table tbody td,body.Dashboard.Plugin table.Label.AltRows {
+border:1px solid #222!important;
+float:left;
+margin-left:0;
+position:relative;
+text-align:center;
+width:100%;
+}
+
+body.Dashboard.Plugin.gallery #Body {
+background:none transparent;
+}
+
+body.Dashboard.Plugin.gallery #Content h1 {
+display:block;
+float:none;
+margin:0 auto;
+text-align:center;
+}
+
+body.Dashboard.Plugin.gallery #Content h2 {
+border:1px solid #666;
+color:aqua;
+font-size:130%;
+font-weight:700;
+margin-bottom:10px;
+text-align:center;
+}
+
+body.Dashboard.Plugin.gallery .Info {
+-moz-border-radius:2px;
+-webkit-border-radius:2px;
+background:url(images/contnt.png)rgba(0,0,0,0.1)!important;
+border:1px solid rgba(0,0,0,0.6)!important;
+border-radius:2px;
+color:#000;
+font-size:14px!important;
+margin:10px 0;
+padding:6px 8px;
+}
+
+body.Dashboard.Plugin.gallery .picGals .clr {
+clear:both;
+}
+
+body.Dashboard.Plugin.gallery .picGals .pics {
+display:inline;
+margin:0 auto;
+text-align:center;
+width:100%;
+}
+
+body.Dashboard.Plugin.gallery .picGals .pics img {
+border-radius:150px 150px 150px 0!important;
+box-shadow:0 2px 2px 12px #333;
+display:inline;
+height:150px;
+margin:15px;
+text-align:center;
+width:150px;
+}
+
+body.Dashboard.Plugin.gallery .picGals .pics img:hover {
+border-radius:150px 150px 150px 0!important;
+box-shadow:0 2px 2px 12px #ccc;
+display:inline;
+height:150px;
+margin:15px;
+text-align:center;
+width:150px;
+}
+
+body.Dashboard.Plugin.gallery a.View.Button {
+padding:8px;
+text-shadow:0 1px 0 #fff;
+}
+
+body.Dashboard.Plugin.gallery a.View.Button:hover {
+text-shadow:0 1px 0 #000;
+}
+
+body.Dashboard.Plugin.gallery h3 {
+font-size:20px;
+}
+
+body.Dashboard.Plugin.gallery input.DateBox,input.InputBox,input.SmallInput,textarea,input.DateBox:focus,input.InputBox:focus,input.SmallInput,textarea:focus {
+background:url(images/contnt.png) repeat scroll 0 0 rgba(255,255,255,0.7);
+border:1px solid #666;
+border-radius:2px 2px 2px 2px;
+color:#000;
+font-size:15px;
+font-weight:700;
+margin:0;
+padding:3px;
+width:250px!important;
+}
+
+body.Dashboard.Profile.Index.Profile .DataList .Options,.MessageList .Options {
+padding:0;
+position:relative;
+right:0;
+top:6px;
+}
+
+body.Dashboard.Profile.Index.Profile .ItemContent.Activity .Excerpt span.onebit_mp3 a,body.Dashboard.Activity .ItemContent.Activity .Excerpt span.onebit_mp3 a {
+color:#000;
+display:inline;
+font-size:11pt;
+left:10px;
+position:relative;
+top:-15px;
+}
+
+body.Dashboard.Profile.Index.Profile span.AddComment a,body.Dashboard.Activity .ItemContent.Activity span.AddComment a {
+float:right;
+margin-top:-10px;
+}
+body.Dashboard.Profile .UserBox, .MeBox {
+
+}
 body.Entry #Content {
 background-color:transparent;
 float:none;
@@ -2875,23 +2095,7 @@ margin:0 auto;
 text-align:center;
 width:97%;
 }
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-body.Entry li.Buttons input.Button, .SignInPopup li.Buttons input.Button {
-    color:#82bb0c;
-    text-shadow: 0 1px 0 #666;
-border:1px solid #222;
-}
-body.Entry li.Buttons input.Button:hover, .SignInPopup li.Buttons input.Button:hover{
- color: #fff;
-    text-shadow: 0 1px 0 #000;
-}
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 body.Entry #Content form {
 padding:10px;
 text-align:left;
@@ -2903,11 +2107,11 @@ color:#FFF!important;
 font-size:16px;
 font-weight:700!important;
 text-align:center;
-<<<<<<< HEAD
 text-shadow:0 1px 0 #000;
-=======
-<<<<<<< HEAD
-text-shadow:0 1px 0 #000;
+}
+
+body.Entry #Panel,body.Entry.Register #Panel,body.Dashboard.Entry.register #Panel,div.FootMenu ul#Menu li ul li a,div.FootMenu ul#Menu li ul li,div.FootMenu ul#Menu li ul,#Foot #FootMenu ul#Menu li ul,body.Dashboard.Plugin #Panel ul#menu-bar {
+display:none!important;
 }
 
 body.Entry form ul li label.CheckBoxLabel,body.Entry form ul li label.RadioLabel {
@@ -2916,27 +2120,9 @@ font-size:14px;
 font-weight:700;
 }
 
-body.Entry li.Buttons input.Button,.SignInPopup li.Buttons input.Button {
-border:1px solid #222;
-color:#ccc;
-text-shadow:0 1px 0 #666;
-}
-
-body.Entry li.Buttons input.Button:hover,.SignInPopup li.Buttons input.Button:hover {
-color:#fff;
-text-shadow:0 1px 0 #000;
-}
-
-body.Post #Content,.Message table {
-=======
-text-shadow: 0 1px 0 #000;
->>>>>>> FETCH_HEAD
-}
-
-body.Entry form ul li label.CheckBoxLabel,body.Entry form ul li label.RadioLabel {
-color:#000;
-font-size:14px;
-font-weight:700;
+body.Entry form ul li.Gender label.RadioLabel,body.Profile.EditMode ul li.Gender label.RadioLabel,div.Popup form ul li.Gender label.RadioLabel {
+display:inline;
+padding-right:0!important;
 }
 
 body.Entry li.Buttons input.Button,.SignInPopup li.Buttons input.Button {
@@ -2949,144 +2135,153 @@ body.Entry li.Buttons input.Button:hover,.SignInPopup li.Buttons input.Button:ho
 color:#fff;
 text-shadow:0 1px 0 #000;
 }
-<<<<<<< HEAD
 
-body.Post #Content,.Message table {
-=======
+body.NoPanel #Content,body.Conversations.add #Content,body.Vanilla.Post #Content {
+margin:0 10px auto;
+width:65%;
+}
+
+body.NoPanel #Panel,body.Entry #Panel,body.Conversations.add #Panel,body.Vanilla.Post #Panel,#menu-bar li:hover > ul,html[xmlns] #menu-bar,.Open > .OptionsTitle {
+display:block;
+}
+
 body.Post #Content,div.Message table {
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 width:98%;
 }
 
 body.Profile #Content {
 float:left;
-<<<<<<< HEAD
-margin-left:3px;
-width:98%;
-}
-
-body.Profile #Form_Invitation ul li label,body.Profile #Form_User ul li label,.Popup form ul li label {
-color:#fff!important;
-=======
 margin-left:10px;
 width:65%;
 }
-<<<<<<< HEAD
 
-body.Profile #Form_Invitation ul li label,body.Profile #Form_User ul li label,.Popup form ul li label {
-color:#fff;
-=======
-body.Profile .PanelInfo li {
-border-bottom: 0;
-text-align: center;
-background: transparent;
-background:url(images/nav.png);
-width:97%;
-}
-body.Profile .PanelInfo li:hover {
-border-bottom: 0;
-text-align: center;
-background: transparent;
-background:url(images/menu_bg2.png);
-width:97%;
-}
-body.Profile .PanelInfo li a {
-float: none;
-color:#87c10b;;
-text-shadow:0 1px 0 #000;
-}
 body.Profile #Form_Invitation ul li label,body.Profile #Form_User ul li label,div.Popup form ul li label {
-color:#87c10b;;
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
+color:#fff;
 display:block;
 font-size:14px;
 font-weight:700;
 margin:10px 0 0;
-<<<<<<< HEAD
 text-shadow:0 1px 0 #666;
-}
-
-body.Profile #Form_User ul li label.RadioLabel,body.Profile #Form_User ul li label.CheckBoxLabel,.Popup form ul li label.RadioLabel,.Popup form ul li label.CheckBoxLabel,#Menu li.NonTab,#Menu li.NonTab a {
-=======
-<<<<<<< HEAD
-text-shadow:0 1px 0 #666;
-}
-
-body.Profile #Form_User ul li label.RadioLabel,body.Profile #Form_User ul li label.CheckBoxLabel,.Popup form ul li label.RadioLabel,.Popup form ul li label.CheckBoxLabel,#Menu li.NonTab,#Menu li.NonTab a {
-=======
-text-shadow: 0 1px 0 #666;
 }
 
 body.Profile #Form_User ul li label.RadioLabel,body.Profile #Form_User ul li label.CheckBoxLabel,div.Popup form ul li label.RadioLabel,div.Popup form ul li label.CheckBoxLabel,#Menu li.NonTab,#Menu li.NonTab a {
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 font-weight:700;
 }
 
 body.Profile #Panel {
-<<<<<<< HEAD
-float:left!important;
-width:100%;
-=======
 float:right!important;
 width:250px;
->>>>>>> FETCH_HEAD
 }
 
-body.Profile .PanelInfo {
-border-bottom:1px solid #222;
-margin:3px 0;
+body.Profile .Loading {
+background-color:#222;
+border-bottom:1px solid #adadad;
 }
 
-<<<<<<< HEAD
 body.Profile .PanelInfo li {
-background:url(images/nav.png);
-border-bottom:0;
-text-align:center;
-width:97%;
-=======
-<<<<<<< HEAD
-body.Profile .PanelInfo li {
-background: url(images/contnt.png);
+background: url(images/nav.png);
 border-bottom: 0;
-text-align: center;
-width: 98%;
->>>>>>> FETCH_HEAD
+text-align: left;
+width: 97%;
+padding: 6px 4px;
 }
 
 body.Profile .PanelInfo li a {
-color:#000;
+color:#fff;
 float:none;
-text-shadow:0 1px 0 #666;
+text-shadow:0 1px 0 #000;
+}
+body.Profile .PanelInfo li a:hover {
+color:lime;
+text-shadow:0 1px 0 #000;
 }
 
 body.Profile .PanelInfo li:hover {
 background:url(images/menu_bg.png);
 border-bottom:0;
 text-align:center;
-<<<<<<< HEAD
 width:97%;
 }
 
-=======
-width:98%;
+body.Profile .PanelInfo,.Popup #Content h1 {
+border:none!important;
 }
 
-=======
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 body.Profile ul.Activities {
 border-top:1px solid #333;
 }
 
-dd.IP a,dt.IP,dd.IP,dt.Visits,dd.Visits,dt.LastActive,dd.LastActive,dd.Joined,dt.Joined {
-display:none;
-<<<<<<< HEAD
-=======
-visibility:hidden;
->>>>>>> FETCH_HEAD
+body.Vanilla.Categories.Index .DataList .Options {
+padding:0;
+right:-20px;
+top:0;
+}
+
+body.Vanilla.Categories.all .ToggleFlyout {
+display:inline-block;
+position:relative;
+top:0;
+}
+
+body.Vanilla.Discussion.Index .DataList .Options,.MessageList .Options,body.Vanilla.Categories .DataList .Options,.MessageList .Options {
+margin:7px 0 0;
+padding:0;
+right:0;
+}
+
+body.Vanilla.Discussion.Index .MeMenu {
+
+}
+
+body.Vanilla.Discussion.Index p.Left,body.Vanilla.Categories p.Left,body.Vanilla.Categories.Index.Discussions p.Left,body.Conversations.Messages p.Left,body.Vanilla.Discussions p.Left,body.Dashboard.Activity p.Left {
+float:none;
+text-align:center;
+}
+
+body.Vanilla.Discussion.Index span.ToggleFlyout.OptionsMenu.Open {
+background:rgba(0,0,0,.5);
+border-radius:5px;
+padding:0;
+top:9px!important;
+z-index:100;
+}
+
+body.Vanilla.Discussions .ToggleFlyout, body.Vanilla.Categories.all .ToggleFlyout {
+display: inline-block;
+margin-left: 10px;
+position: relative;
+top: 0;
+}
+body.Vanilla.Drafts .MeMenu, body.Vanilla.Post .ToggleFlyout {
+line-height: 24px;
+position: relative;
+top: 0;
+}
+body.Vanilla.Categories.all .DataList .Meta {
+color: #333;
+font-size: 12px;
+position: relative;
+left: 1%;
+display: inline-block;
+white-space: pre-line;
+}
+body.Dashboard.Entry #Body {
+min-height: 800px;
+margin: 15px 10px 0 auto;
+min-width: 800px;
+text-align: left;
+width: 100%;
+}
+dd.IP a,dd.Roles a {
+color:#000;
+font-size:7pt;
+font-weight:700;
+}
+
+dd.IP a:hover,dd.Roles a:hover {
+color:lime;
+font-size:7pt;
+font-weight:700;
 }
 
 dd.Name {
@@ -3096,13 +2291,9 @@ font-weight:700;
 }
 
 div#ConversationForm {
-width:98%!important;
+width:100%!important;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> FETCH_HEAD
 div#Popup .Border {
 -moz-border-radius:8px;
 -webkit-border-radius:8px;
@@ -3110,43 +2301,48 @@ background:none repeat scroll 0 0 rgba(82,82,82,0.3);
 border-radius:8px;
 box-shadow:1px 1px 1px 1px #333;
 padding:10px;
-<<<<<<< HEAD
-=======
 }
 
-h1,h2,h3,h4,h5,h6 {
+div#kPoll.Box .PanelActivity {
+border-bottom:0;
+border-top:1px solid #222;
+}
+
+div.AttachFileWrapper table.AttachFileContainer tr.FileAttachment td div.ProgressBar {
+background-color:transparent;
+border:0;
+font-size:14px;
+height:39px;
+width:126px;
+}
+
+div.AttachFileWrapper table.AttachFileContainer tr.FileAttachment td div.ProgressBar div.ProgressTicker {
+background:url(images/upload-progress-back1.gif)!important;
+background-color:transparent;
 color:#fff;
-font-family:"Helvetica Neue",Helvetica,arial,sans-serif;
-font-weight:700;
-margin:0;
-text-shadow:0 1px 0 #000;
-height:auto;
-}
-iframe#Form_body, textarea#Form_Body.TextBox,iframe#Form_body:focus, textarea#Form_Body.TextBox:focus {
-color: #000!important;
-background:transparent;
-border: none;
+font-size:14px;
+height:39px;
+line-height:14px;
+padding-right:2px;
+text-align:right;
 }
 
-iframe#jplayer2 {
-float:right;
-margin:5px 10px;
-position:relative;
-=======
 div.Box.About h4,div.Box.CategoryFollowToggleBox h4,div.Box.GuestBox h4 {
-background:url(images/menu_bg2.png);
+background:url(images/menu_bg.png);
 }
-div.Box.CategoryFollowToggleBox h4 p a:link{
+
+div.Box.CategoryFollowToggleBox h4 p a:link {
 color:#222!important;
 }
 
-div.Content{
-opacity:10;
-}
 div.Comment {
-color:#87c10b;;
+color:#000;
 font:family:Arial;
 font-size:12pt!important;
+}
+
+div.Content {
+opacity:10;
 }
 
 div.DismissMessage.Info {
@@ -3162,50 +2358,42 @@ font-weight:700;
 div.Entry.SingleEntryMethod {
 border-color:#222;
 border-width:1px;
-font:family:Arial;
 }
 
 div.Entry.SingleEntryMethod Label,li.CreateAccount {
-    color: #FFFFFF;
-    text-shadow: 0 1px 0 #000000;
+color:#FFF;
+text-shadow:0 1px 0 #000;
 }
 
 div.Entry.SingleEntryMethod h1 {
-background:url(images/menu_bg2.png);
+background:url(images/menu_bg.png);
 border-color:#222;
 border-style:solid;
 border-width:1px;
 color:#fff;
-font:family:Arial;
+}
+div.Foot {
+background: transparent;
+background-size: 100% 100%;
+border:none;
+margin: 0 auto;
+text-align: center;
 }
 
-div.Foot {
-background:transparent;
-border-color:#222;
-}
-div.FootMenu #Menu a:link {
-font-size: 12pt;
-text-decoration: none;
-background: none;
-border: none;
+div.FootMenu #Menu a:link,div.FootMenu #Menu a:link:hover {
+background:none;
+border:none;
 box-shadow:none;
+font-size:12pt;
+text-decoration:none;
 }
-div.FootMenu #Menu a:link:hover {
-font-size: 12pt;
-text-decoration: none;
-background: none;
-border: none;
-box-shadow:none;
-}
-div.FootMenu ul#Menu li ul li a, div.FootMenu ul#Menu li ul li,div.FootMenu ul#Menu li ul{
-display:none!important;
-}
-div.ItemContent.Category.Read a, span.Breadcrumb.FirstCrumb a {
+
+div.ItemContent.Category.Read a,span.Breadcrumb.FirstCrumb a {
 background:url(images/contnt.png);
 background-repeat:repeat-x;
 border:1px solid #666;
 border-radius:3px 3px 3px 3px;
-color:#87c10b;;
+color:#000;
 cursor:pointer;
 display:inline-block;
 font-size:14px;
@@ -3213,17 +2401,23 @@ font-weight:700;
 margin:0 0 10px;
 padding:3px 6px;
 text-align:center;
-text-shadow:0 1px 0 #000;
+text-shadow:0 1px 0 #666;
 }
 
-div.ItemContent.Category.Read a:hover, span.Breadcrumb.FirstCrumb a:hover{
+div.ItemContent.Category.Read a:hover,span.Breadcrumb.FirstCrumb a:hover {
 -moz-box-shadow:0 0 5px #aaa;
 -webkit-box-shadow:0 0 5px #aaa;
-background:url(images/menu_bg2.png);
+background:url(images/menu_bg.png);
 border:1px solid #222;
 box-shadow:0 0 5px #aaa;
 color:#fff;
 text-shadow:0 1px 0 #000;
+}
+
+div.MainForm {
+background: none transparent;
+padding: 0;
+min-width: 320px;
 }
 
 div.Message {
@@ -3239,15 +2433,34 @@ div.Message img {
 -moz-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
 -webkit-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
 border:1px solid #222;
+border-radius:10px;
 box-shadow:2px 2px 3px rgba(0,0,0,0.5);
-width:98%!important;
-border-radius: 10px;
-}
-div.Popup .Body {
-    background: url("images/contnt.png") repeat scroll 0 0 rgba(0,0,0,0.6);
+width:98%;
 }
 
-div.Popup a,#ThemeC#82bb0cit a {
+div.Popup .Body {
+background: 
+transparent!important;
+min-width: 420px;
+max-height: 600px;
+overflow-y: auto;
+overflow-x: hidden;
+border: none!important;
+box-shadow: none!important;
+}
+
+div.Popup .Legal,div.Popup .Content form {
+max-height:840px!important;
+min-width:430px;
+overflow:auto;
+padding:0 10px 10px;
+}
+
+div.Popup a {
+color:#ccc;
+}
+
+div.Popup a,#ThemeCredit a {
 color:#ADADAD;
 }
 
@@ -3256,20 +2469,30 @@ text-decoration:none;
 }
 
 div.Popup h1,div.Popup h2 {
-background:url(images/menu_bg2.png);
+background:url(images/menu_bg.png);
 background-repeat:repeat;
-border:1px solid #666;
+border:1px solid #222;
 border-radius:0;
 box-shadow:0 0 2px #999;
+color:#000;
+font-size:16px;
+}
+
+div.Popup p {
+background:rgba(0,0,0,0.3);
 color:#fff;
 font-size:18px;
+padding:6px 10px 10px;
+text-align:left;
 }
 
 div.Popup,.PanelInfo .Active a {
 color:#111;
 font-size:14px;
 }
-
+.ProfilePhotoMedium, .Item .Author img {
+border-radius: 5px;
+}
 div.Preview {
 background:#222!important;
 font-size:14px;
@@ -3280,13 +2503,37 @@ background-color:transparent;
 }
 
 div.User h1 {
-background: url(images/menu_bg2.png) repeat scroll transparent;
-color: #fff;
-font-size: 24px;
-font-weight: 700;
-text-align: center;
-text-shadow: 0 1px 0 #000;
->>>>>>> FETCH_HEAD
+background:url(images/menu_bg.png) repeat scroll transparent;
+color:#fff;
+font-size:24px;
+font-weight:700;
+text-align:center;
+text-shadow:0 1px 0 #000;
+}
+
+dl.About dd,.CommentForm .FormWrapper {
+padding:0;
+}
+
+dl.About dt {
+background:url(images/profile-sprites.png) 2px -139px no-repeat transparent;
+color:#333;
+padding-left:14px!important;
+}
+
+dl.About dt, dl.About dd {
+display: inline-table;
+float: none;
+font-size: 12px;
+line-height: 1;
+margin: 0;
+padding: 4px;
+}
+
+dt.location {
+position:relative;
+right:0;
+top:0px;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -3294,37 +2541,69 @@ color:#fff;
 font-family:"Helvetica Neue",Helvetica,arial,sans-serif;
 font-weight:700;
 margin:0;
+text-align:center;
 text-shadow:0 1px 0 #000;
 }
 
-iframe#Form_body,textarea#Form_Body.TextBox {
-<<<<<<< HEAD
-color:#000!important;
+h19 {
+font-size:18px;
+margin:0 auto;
+text-align:center;
+}
+
+h2 {
+background:url(images/menu_bg.png)repeat;
+border-bottom:1px solid #222;
+font-family:Impact!important;
+font-size:22px;
+padding:9px;
+text-shadow:1px 1px 3px #000;
+}
+
+iframe#Form_body, textarea#Form_Body.TextBox,form.Activity textarea {
+color: #fff!important;
+min-height: 330px!important;
+overflow: auto;
+width: 100%!important;
+border: solid 1px #000;
+background: url(images/contnt.png);
+text-shadow: 0px 1px 0px #000;
 }
 
 iframe#jplayer2 {
 float:right;
 margin:5px 10px;
 position:relative;
-=======
-color:#87c10b;!important;
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 }
 
-input#Form_Go.Button,input#Form_Go.Button:hover {
+input#Form_Go.Button {
+-moz-box-shadow:none;
+-webkit-box-shadow:none;
+background:url(images/contnt.png);
+border:1px solid #222;
+border-radius:12px;
+box-shadow:none;
+font-size:12pt;
+font-weight:700;
+}
+
+input#Form_Go.Button:hover {
 -moz-box-shadow:0 0 5px #aaa;
 -webkit-box-shadow:0 0 5px #aaa;
-<<<<<<< HEAD
-background:url(images/menu_bg.png);
-border-radius:12px;
-=======
-<<<<<<< HEAD
 background:url(images/menu_bg.png);
 border-radius:12px;
 box-shadow:0 0 5px #aaa;
 font-size:12pt;
 font-weight:700;
+}
+
+input.Button {
+padding:6px;
+text-shadow:0 1px 0 #fff;
+}
+
+input.Button.Primary {
+margin:5px;
 }
 
 input.DateBox,input.InputBox,input.SmallInput,textarea,input.DateBox:focus,input.InputBox:focus,input.SmallInput,textarea:focus {
@@ -3336,44 +2615,11 @@ font-size:15px;
 font-weight:700;
 margin:0;
 padding:3px;
-width:250px;
-=======
->>>>>>> FETCH_HEAD
-box-shadow:0 0 5px #aaa;
-font-size:12pt;
-font-weight:700;
+width:98%!important;
 }
 
-<<<<<<< HEAD
-input.DateBox,input.InputBox,input.SmallInput,textarea,input.DateBox:focus,input.InputBox:focus,input.SmallInput,textarea:focus {
-background:url(images/contnt.png) repeat scroll 0 0 rgba(255,255,255,0.7);
-border:1px solid #666;
-border-radius:2px 2px 2px 2px;
-color:#000;
-font-size:15px;
-font-weight:700;
-margin:0;
-padding:3px;
-width:250px;
-=======
-input.DateBox, input.InputBox, input.SmallInput, textarea, input.DateBox:focus, input.InputBox:focus, input.SmallInput, textarea:focus {
-    background: url("images/contnt.png") repeat scroll 0 0 rgba(255, 255, 255, 0.7);
-    border: 1px solid #666666;
-    border-radius: 2px 2px 2px 2px;
-    color:#000;
-    font-size: 15px;
-    font-weight: 700;
-    margin: 0;
-    padding: 3px;
-    width: 250px;
-}
-
-iframe#jplayer2{
-position:relative;
-margin: 5px 10px;
-float:right;
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
+p#back-top {
+top:0px!important;
 }
 
 span.Email a,span.AddComment a {
@@ -3381,97 +2627,80 @@ color:#222;
 font-size:10pt;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-table.PreferenceGroup td.Description,div.CategoryDescription {
+span.OptionsTitle {
+-moz-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
+-moz-user-select:none;
+-webkit-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
+background-color:transparent;
+background-image:url(images/options.png);
+background-position:center center;
+background-repeat:no-repeat;
+border:1px solid #333;
+border-radius:4px;
+box-shadow:2px 2px 3px rgba(0,0,0,0.5);
+color:#FFF;
 font-size:14px;
+font-weight:700;
+text-shadow:0 1px 0 #000;
 }
 
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
+span.ToggleFlyout.OptionsMenu.Open {
+background:rgba(0,0,0,.5);
+border-radius:5px;
+padding:0;
+top:6px;
+z-index:100;
+}
+
 textarea.MultiComplete {
-background:none repeat scroll 0 0 #000;
+background:none repeat scroll 0 0 #222;
+color:#fff;
 height:20px;
 text-align:left;
 width:100%;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> FETCH_HEAD
+textarea.TextBox {
+height:100px!important;
+min-height:100px;
+width:98%!important;
+}
+
 ul#Menu {
 margin:0 auto;
+padding:5px;
 position:relative;
 }
 
-<<<<<<< HEAD
-=======
 ul#Menu li ul {
 -moz-border-radius:5px;
--moz-box-shadow:0 0 2px #333;
+-moz-box-shadow:2px 2px 3px #666;
 -webkit-border-radius:5px;
--webkit-box-shadow:0 0 2px #333;
-background:url(images/woodbig.jpg) transparent;
-background-repeat:no-repeat;
-border:1px solid #222;
+-webkit-box-shadow:2px 2px 3px #666;
+background:rgba(0,0,0,0.5)!important;
+background-repeat:repeat;
+border:solid 1px #222;
 border-radius:5px;
-box-shadow:0 0 2px #333;
+box-shadow:2px 2px 3px #666;
 display:none;
 left:0;
-margin:10px;
+margin:0;
 padding:0;
 position:absolute;
-top:25px;
-visibility:hidden;
-
-}
-
-ul#Menu li ul li {
-border:none!important;
-float:none;
-font-size:12pt;
-margin:0;
 text-align:left;
-text-shadow:2px 2px 3px #000;
-z-index:9;
-position: relative;
-left: -1px;
-}
-
-ul#Menu li ul li a {
-color:#000!important;
-font-size:12pt!important;
-font-weight:700;
-margin:0 auto;
-text-align:left!important;
-text-shadow:0 1px 0 #666!important;
-width:89%;
-=======
->>>>>>> FETCH_HEAD
-ul#Menu li ul {
--moz-border-radius:5px;
--moz-box-shadow:0 0 2px #333;
--webkit-border-radius:5px;
--webkit-box-shadow:0 0 2px #333;
-background:url(images/woodbig.jpg) transparent;
-background-repeat:no-repeat;
-border:1px solid #222;
-border-radius:5px;
-box-shadow:0 0 2px #333;
-display:none;
-left:0;
-margin:0;
-padding:0;
-position:absolute;
-top:25px;
+top:33px!important;
 visibility:hidden;
+width:165px;
+z-index:100;
 }
 
 ul#Menu li ul li {
+-moz-box-shadow:0 1px 1px rgba(0,0,0,.2);
+-webkit-box-shadow:0 1px 1px rgba(0,0,0,.2);
+background-image:url(images/contnt.png)!important;
+background-repeat:repeat!important;
 border:none!important;
+box-shadow:0 1px 1px rgba(0,0,0,.2);
 float:none;
 font-size:12pt;
 margin:0;
@@ -3481,57 +2710,96 @@ z-index:9;
 }
 
 ul#Menu li ul li a {
-color:#000!important;
+background:rgba(0,0,0,.5);
+border:none;
+box-shadow:none;
+color:#fff!important;
+display:inline-block;
 font-size:12pt!important;
 font-weight:700;
-margin:0 auto;
-text-align:left!important;
-<<<<<<< HEAD
-text-shadow:0 1px 0 #666!important;
-width:85%;
-=======
+margin:0;
+padding:0;
+text-align:center!important;
 text-shadow:0 1px 0 #000!important;
-width:100%;
-margin: 0 ;
-background:#80b40a;
-border: 1px solid #222;
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
+width:163px!important;
 }
 
 ul#Menu li ul li a:hover {
 -moz-border-radius:4px;
 -webkit-border-radius:4px;
-<<<<<<< HEAD
-background:url(images/menu_bg.png)repeat-x!important;
+background:rgba(0,0,0,1.9)!important;
+border:none;
 border-bottom:1px solid #222;
-=======
-<<<<<<< HEAD
-background:url(images/menu_bg.png)repeat-x!important;
-border-bottom:1px solid #222;
-=======
-background:rgba(0,0,0,0.8);!important;
-border:1px solid #222;
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 border-radius:4px;
-color:#FFF!important;
-text-shadow:2px 2px 5px #000!important;
+box-shadow:none;
+color:lime!important;
+display:inline-block;
+font-size:12pt!important;
+font-weight:700;
+margin:0;
+padding:0;
+text-align:center!important;
+text-shadow:0 1px 0 #000!important;
+width:163px!important;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
+
+ul.Discussions li img.dttp {
+float:right;
+height:auto;
+margin-right:0!important;
+margin-top:35px;
+padding:2px!important;
+width:24px!important;
+}
+
+ul.Dropdown.MenuItems {
+-moz-border-radius:2px;
+-moz-box-shadow:0 5px 10px rgba(0,0,0,0.2);
+-webkit-border-radius:2px;
+-webkit-box-shadow:0 5px 10px rgba(0,0,0,0.2);
+background:transparent;
+border:1px solid #222;
+border-radius:2px;
+box-shadow:0 5px 10px rgba(0,0,0,0.2);
+font-size:11px;
+line-height:100%;
+padding:5px 0;
+}
+
+ul.FilterMenu {
+-moz-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
+-webkit-box-shadow:2px 2px 3px rgba(0,0,0,0.5);
+box-shadow:2px 2px 3px rgba(0,0,0,0.5);
+}
 
 ul.Flyout.MenuItems {
-background:url(images/contnt.png)no-repeat scroll 0 0 rgba(82,82,82,0.3);
+background:url(images/contnt.png)repeat scroll 0 0 rgba(82,82,82,0.3);
+width:100px;
 }
 
-ul.Flyout.MenuItems li a,ul.Flyout.MenuItems li a:hover {
+ul.Flyout.MenuItems li a {
 background:none transparent!important;
 border:none!important;
+font-family:arial;
+font-size:8.5pt;
+font-weight:700;
+text-align:center;
+width: 88%;
+box-shadow: none;
+white-space: pre-wrap;
 }
 
-ul.MessageList .Meta span.Votes {
+ul.Flyout.MenuItems li a:hover, ul.Flyout.MenuItems li a.DeleteComment.Popable:hover {
+background: none rgba(0,0,0,1)!important;
+border: none!important;
+font-family: arial;
+font-size: 8.5pt;
+font-weight: 700;
+text-align: center;
+width: 88%;
+box-shadow: none;
+}
+ul.MessageList div.Meta span.Votes {
 display:block;
 left:90%;
 line-height:normal;
@@ -3544,117 +2812,181 @@ ul.MessageList li.Item {
 background:url(images/contnt.png);
 background-size:100% 100%;
 }
-ul.Discussions li img {
-height: 45px;
-width: 45px;
-float: left;
-padding: 3px;
-border-radius:5px;
-=======
-ul.MessageList li.Item {
-background: url(images/contnt.png);
-background-size: 100% 100%;
-}
-ul.MessageList div.Meta span.Votes { text-align: center; display: block; position: absolute; left: 90%; line-height: normal; padding: 0; }
 
-
-div#Popup .Border {
-border-radius: 8px;
--moz-border-radius: 8px;
--webkit-border-radius: 8px;
-background: none repeat scroll 0 0 
-rgba(82, 82, 82, 0.3);
-padding: 10px;
-box-shadow: 1px 1px 1px 1px #333;
-}
-.Meta .RSS img {
-vertical-align: text-bottom;
-width:18px;
-height:18px;
-}
-ul.Flyout.MenuItems{
-background:url(images/contnt.png)no-repeat scroll 0 0 rgba(82, 82, 82, 0.3);
-}
-ul.Flyout.MenuItems li a{
-background: none transparent!important;
-border: none!important;
-}
-ul.Flyout.MenuItems li a:hover{
-background: none transparent!important;
-border: none!important;
-}
->>>>>>> FETCH_HEAD
-
-ul.Flyout.MenuItems {
-background:url(images/contnt.png)no-repeat scroll 0 0 rgba(82,82,82,0.3);
-}
-
-ul.Flyout.MenuItems li a,ul.Flyout.MenuItems li a:hover {
-background:none transparent!important;
-border:none!important;
-}
-
-ul.MessageList .Meta span.Votes {
-display:block;
-left:90%;
-line-height:normal;
-padding:0;
-position:absolute;
-text-align:center;
-}
-
-ul.MessageList li.Item {
+ul.token-input-list {
+-moz-border-radius:5px!important;
+-webkit-border-radius:5px!important;
 background:url(images/contnt.png);
-background-size:100% 100%;
+background-color:transparent!important;
+border:1px solid #222!important;
+border-radius:5px!important;
+color:#333!important;
+cursor:text;
+font-size:15px!important;
+height:auto!important;
+list-style-type:none;
+margin:0 2px auto!important;
+min-height:1px;
+overflow:hidden;
+padding:3px;
+width:98%!important;
+z-index:999;
 }
-ul.Discussions li img {
-height: 45px;
-width: 45px;
-float: left;
-<<<<<<< HEAD
-padding: 3px;
-border-radius:5px;
-=======
-max-width: 680px;
-margin: 0 0 40px;
-width: 501px;
+
+ul.token-input-list li input {
+background-color:#222!important;
+border:1px solid #666!important;
+border-radius:5px!important;
+color:#fff!important;
+font-size:14px!important;
+margin:2px 0;
+padding:3px;
+width:120px;
 }
-div.Popup.Popup.SignInPopup .Body {
-background:transparent!important;
-width: 320px;
+body.Dashboard.Plugin.Feedback #Panel{
+display:none!important;
 }
-div.Popup.Popup.SignInPopup .Border {
-margin: 0px auto;
-text-align: left;
+div.insert {
+text-align: center;
+border: none!important;
+font-size: 7pt;
+vertical-align: bottom;
 position: relative;
-max-width: 680px;
-display: inline-block;
-overflow: auto;
-width:320px;
+top: -10px!important;
+padding: 2px;
+float:right;
 }
-div.Popup #Content{
-width:100%!important;
+.Reactions {
+position: relative;
+font-size: 11px;
+line-height: 1;
+margin-left: 0px;
+top: -10px;
+}
+.QuoteAuthor {
+position:relative;
+left: 35px;
+}
+.QuoteAuthor a{
+color:lime!important;;
+}
+.QuoteAuthor a:hover{
+color:#fff!important;;
+}
+.Quote .ProfilePhotoMedium{
+	width:30px!important;
+	height:auto;
+	border-radius:30px;
+}
+blockquote.Quote, blockquote.UserQuote {
+padding: 1ex 16px;
+margin: 1px 0;
+background: 
+rgba(0, 0, 0, 0.2);
+border: 4px solid 
+rgba(0, 0, 0, 0.2);
+font-style: italic;
+color:#FFF;
+text-shadow:0 1px 0 #000;
+}
+blockquote.Quote .UserPhoto {
+position: relative;
+top: 20px;
+}
+.UserBox, .MeBox {
+-moz-border-radius: 5px!important;
+-webkit-border-radius: 5px!important;
+-o-border-radius: 5px!important;
+border-radius: 5px!important;
+position: relative;
+margin-top: 3px;
+width: 98%;
+text-align:center;
+}
+.PageTitle .Options {
+height: 50px;
+float: right;
+}
+#Panel .PanelInfo li.Popup.EditAccountLink {
+display: inline-block;
 }
 
-div.Popup p {
-padding: 6px 10px 10px;
-text-align: left;
+body.Dashboard.Profile.edit.EditMode .UserBox {
+float: left;
+width: 100%;
 }
-div.Popup.Popup.SignInPopup a.Close span,div.Popup a.Close span{
-color: #fff;
+a.Close {
+line-height: 1;
+color:#555;
+cursor: pointer;
 font-family: arial;
 font-size: 22px;
-font-weight: 700;
-top: -10px;
+font-weight: bold;
+padding: 0;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+background: url('images/dashboard-sprites.png') -1px -100px no-repeat #000;
+border-bottom: none;
+position: absolute;
+right: 10px;
+top: 7px;
+height: 26px;
+width: 26px;
+overflow: hidden;
+}
+span.MItem.IPAddress a{
+font-size:9px;
+}
+body.Dashboard.Profile.Index.Profile .MItem.DateCreated {
+margin-left: 0;
+margin-right: 0;
+white-space: pre-wrap;
 position: relative;
+top: 30px;
 }
-div.Popup a:hover,div.Popup.Popup.SignInPopup a.Close span:hover,div.Popup a.Close span:hover {
-color:#82bb0c;
+.Discussion.ItemContent {
+padding-left: 0px;
+min-height: 55px;
+width: 100%;
 }
-body.Entry li.Buttons input.Button, .SignInPopup li.Buttons input.Button {
-color:#82bb0c;
-text-shadow: 0 1px 0 #000;
-border: 1px solid #222;
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
+span.DateUpdated{
+
+}
+img.Symbol {
+height: auto;
+width: 30px;
+position: relative;
+top:10px;
+}
+.Item-Header.CommentHeader{
+padding-top:15px;
+}
+span.Author a.Username{
+position:relative;
+top:10px;
+}
+.VShare {
+
+}
+.MItem:last-child {
+margin-right: 0;
+}
+
+span.AddComment a.CommentOption {
+position: absolute;
+margin-left: 150px;
+top: 10px;
+}
+span.MItem.DateCreated {
+color: #333;
+}
+.Popup #Content {
+width:100%!important;
+}
+iframe#onlineRadioFrame{
+width:100%;
+}
+p.Center a img{
+    
 }

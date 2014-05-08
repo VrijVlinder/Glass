@@ -13,8 +13,8 @@ Contact Vanilla Forums Inc. at support [at] vanillaforums [dot] com
  */
 $ThemeInfo['Glass'] = array(
    'Name' => 'Glass',
-   'Description' => "A transparent embed friendly and full scale theme for 2.1 . This theme is very dynamic and can be placed anywhere. Use it in a Facebook Page Or anywhere you want.",
-   'Version' => '1.5.1',
+   'Description' => "A transparent embed friendly and full scale theme. This theme is very dynamic and can be placed anywhere. Use it in a Facebook Page Or anywhere you want.",
+   'Version' => '1.4.1',
    'Author' => "VrijVlinder",
    'AuthorEmail' => 'contact@vrijvlinder.com',
    'AuthorUrl' => 'vrijvlinder.com'
